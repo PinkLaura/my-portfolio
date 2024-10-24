@@ -2,12 +2,14 @@
 
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
+import { useEffect } from 'react'
 
 function Navbar() {
     const pathname = usePathname()
 
-    /*var showLogoOnScroll = function () {
-        var myID = document.getElementById("logo-in-navbar");
+    useEffect(() => {
+        var showLogoOnScroll = function () {
+            var myID = document.getElementById("logo-in-navbar");
 
             var y = window.scrollY;
             if (y >= 60) {
@@ -15,10 +17,11 @@ function Navbar() {
             } else {
                 myID.style.display = "none";
             }
-        
-    };
 
-    window.addEventListener("scroll", showLogoOnScroll);*/
+        };
+    }, [])
+
+    window.addEventListener("scroll", showLogoOnScroll);
 
 
     var toggleNavbar = function () {
