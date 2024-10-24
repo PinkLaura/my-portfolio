@@ -6,18 +6,19 @@ import Link from 'next/link'
 function Navbar() {
     const pathname = usePathname()
 
-    var myScrollFunc = function () {
+    /*var showLogoOnScroll = function () {
         var myID = document.getElementById("logo-in-navbar");
 
-        var y = window.scrollY;
-        if (y >= 60) {
-            myID.style.display = "block";
-        } else {
-            myID.style.display = "none";
-        }
+            var y = window.scrollY;
+            if (y >= 60) {
+                myID.style.display = "block";
+            } else {
+                myID.style.display = "none";
+            }
+        
     };
 
-    window.addEventListener("scroll", myScrollFunc);
+    window.addEventListener("scroll", showLogoOnScroll);*/
 
 
     var toggleNavbar = function () {

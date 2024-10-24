@@ -1,11 +1,9 @@
 import Image from "next/image";
 import Link from 'next/link';
-import Scroll from "@/components/scroll";
 
 
 export default function Home() {
 
-  <Scroll/>
   
   return (
 
