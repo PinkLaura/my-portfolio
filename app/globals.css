@@ -1,21 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/recoleta');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.dashed-border-l-white {
+  outline-offset: -12px;
+  outline: 1px dashed rgb(255, 255, 255, 0.5);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dashed-border-m-white {
+  outline-offset: -8px;
+  outline: 1px dashed rgb(255, 255, 255, 0.75);
 }
+
+.dashed-border-m {
+  outline-offset: -8px;
+  outline: 1px dashed rgba(0, 0, 0, 0.25);
+}
+
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+body, html, * {
+  cursor: url('/img/cursor-default-x1.svg'), auto !important;
+  scroll-behavior: smooth;
+} 
+
+a *,
+button *,
+label * {
+  cursor: url('/img/cursor-pointer-x1.svg'), auto !important;
+}
+
+a:hover{
+  cursor: url('/img/cursor-pointer-x1.svg'), auto !important;
+}
+
+
+
+.star {
+  position: fixed;
+  pointer-events: none;
+}
+
+.star:before,
+.star:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '\2726';
+  font-size: 12px;
+}
+
+.star:before {
+  color: transparent;
+  text-shadow: 0 0 3px #FF008A10;
+}
+
+.star:after {
+  background: #FF008A50;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
