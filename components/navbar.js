@@ -19,9 +19,11 @@ function Navbar() {
             }
 
         };
+
+        window.addEventListener("scroll", showLogoOnScroll);
+
     }, [])
 
-    window.addEventListener("scroll", showLogoOnScroll);
 
 
     var toggleNavbar = function () {
