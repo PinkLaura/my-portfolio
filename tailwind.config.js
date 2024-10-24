@@ -15,6 +15,7 @@ module.exports = {
       sans: ['Urbanist', 'sans-serif'],
       serif: ['var(--font-recoleta-alt)', 'serif'],
       mono: ['monospace'],
+      handwriting: ['Handlee'],
     },
 
     lineHeight: {
