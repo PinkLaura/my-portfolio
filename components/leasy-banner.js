@@ -17,7 +17,7 @@ export default function LeasyBanner() {
 
                 <div className="flex flex-row gap-3 w-full">
                     {/* box 1 */}
-                    <a className="group block rounded-2xl border border-dashed w-full
+                    <a className="group rounded-2xl border border-dashed w-full
                     p-3 flex flex-col gap-3 justify-center items-center font-medium font-serif
                     bg-gradient-to-t from-sky-50 to-white hover:from-sky-100 hover:to-sky-200
                     border-sky-500 text-sky-500 stroke-sky-500 
@@ -37,7 +37,7 @@ export default function LeasyBanner() {
                     </a>
 
                     {/* box 2 */}
-                    <a className="group block rounded-2xl border border-dashed w-full
+                    <a className="group rounded-2xl border border-dashed w-full
                         p-3 flex flex-col gap-3 justify-center items-center font-medium font-serif
                         bg-gradient-to-t from-blue-50 to-white hover:from-blue-100 hover:to-sky-200
                         border-blue-500 text-blue-500 stroke-blue-500 
@@ -58,7 +58,7 @@ export default function LeasyBanner() {
 
                     {/* box 3 */}
                     <a
-                        className="group block rounded-2xl border border-dashed w-full
+                        className="group rounded-2xl border border-dashed w-full
                 p-3 flex flex-col gap-3 justify-center items-center font-medium font-serif
                 bg-gradient-to-t from-indigo-50 to-white hover:from-indigo-100 hover:to-indigo-200
                 border-indigo-500 text-indigo-500 stroke-indigo-500 hover:border-indigo-600 hover:text-indigo-600 hover:stroke-indigo-600">
@@ -85,7 +85,7 @@ export default function LeasyBanner() {
 
                     {/* box 4 */}
                     <a
-                        className="group block rounded-2xl border border-dashed w-full
+                        className="group rounded-2xl border border-dashed w-full
                     p-3 flex flex-col gap-3 justify-center items-center font-medium font-serif
                     bg-gradient-to-t from-violet-50 to-white hover:from-violet-100 hover:to-violet-200
                     border-violet-500 text-violet-500 stroke-violet-500 hover:border-violet-600 hover:text-violet-600 hover:stroke-violet-600">
@@ -121,7 +121,7 @@ export default function LeasyBanner() {
 
                     {/* box 5 */}
                     <a
-                        className="group block rounded-2xl border border-dashed w-full
+                        className="group rounded-2xl border border-dashed w-full
                         p-3 flex flex-col gap-3 justify-center items-center font-medium font-serif
                         bg-gradient-to-t from-purple-50 to-white hover:from-purple-100 hover:to-purple-200
                         border-purple-500 text-purple-500 stroke-purple-500 hover:border-purple-600 hover:text-purple-600 hover:stroke-purple-600">
@@ -138,7 +138,7 @@ export default function LeasyBanner() {
                                 strokeLinejoin="round" />
                             <path d="M11.5 5.50989L11.51 5.49878" strokeWidth="1.5" strokeLinecap="round"
                                 strokeLinejoin="round" />
-                            <path fill-rule="evenodd" clip-rule="evenodd"
+                            <path fillRule="evenodd" clipRule="evenodd"
                                 d="M22.5822 18.8651C23.076 19.1689 23.0457 19.9082 22.5371 19.9658L19.9705 20.2568L18.8193 22.5691C18.5911 23.0273 17.886 22.8029 17.7695 22.235L16.5142 16.119C16.4157 15.639 16.8471 15.337 17.2644 15.5937L22.5822 18.8651Z"
                                 strokeWidth="1.5" />
                         </svg>
