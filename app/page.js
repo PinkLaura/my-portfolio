@@ -8,7 +8,7 @@ export default function Home() {
   return (
 
     <>
-      <img src="/img/home/home-decoration-header-gradient-blur-2.svg" className="absolute -right-5 -top-12 blur-[140px]" />
+      <img src="./img/home/home-decoration-header-gradient-blur-2.svg" className="absolute -right-5 -top-12 blur-[140px]" />
 
       {/* Sezione header */}
       <section className="mt-20 md:mt-40">
@@ -18,10 +18,10 @@ export default function Home() {
         <div className="container max-w-4xl flex flex-col gap-8 px-6 relative mb-16">
 
           {/* gradient rosa */}
-          <img src="/img/home/home-decoration-header-gradient-blur.svg"
+          <img src="./img/home/home-decoration-header-gradient-blur.svg"
             className="absolute -left-72 -bottom-20 blur-[140px] z-10" />
           {/* icone decorative */}
-          <img src="/img/home/home-decoration-header-only-icons.svg" className="absolute -left-32 -top-20 z-10" />
+          <img src="./img/home/home-decoration-header-only-icons.svg" className="absolute -left-32 -top-20 z-10" />
 
           {/* scritte */}
           <h1 className="text-5xl font-serif font-semibold text-title">
@@ -120,7 +120,7 @@ export default function Home() {
         <div className="container px-6 max-w-4xl flex flex-col gap-10 relative">
 
           {/* gradient rosa */}
-          <img src="/img/home/home-decoration-header-gradient-blur.svg"
+          <img src="./img/home/home-decoration-header-gradient-blur.svg"
             className="absolute left-56 -bottom-1 blur-[200px] scale-75" />
 
           <h2 className="font-serif text-title text-3xl text-center">How I work</h2>
@@ -129,7 +129,7 @@ export default function Home() {
             {/* box 1 */}
             <div
               className="bg-white drop-shadow-2 p-6 dashed-border-m text-center rounded-xl flex flex-col items-center w-full">
-              <img src="/img/home/how-i-work_data-driven.svg" className="mb-2 w-14" />
+              <img src="./img/home/how-i-work_data-driven.svg" className="mb-2 w-14" />
               <h3 className="font-serif text-title text-2xl">
                 Data driven
               </h3>
@@ -141,7 +141,7 @@ export default function Home() {
             {/* box 2 */}
             <div
               className="bg-white drop-shadow-2 p-6 dashed-border-m text-center rounded-xl flex flex-col items-center w-full">
-              <img src="/img/home/how-i-work_empathy.svg" className="mb-2 w-14" />
+              <img src="./img/home/how-i-work_empathy.svg" className="mb-2 w-14" />
               <h3 className="font-serif text-title text-2xl">
                 Empathy
               </h3>
@@ -153,7 +153,7 @@ export default function Home() {
             {/* box 3 */}
             <div
               className="bg-white drop-shadow-2 p-6 dashed-border-m text-center rounded-xl flex flex-col items-center w-full">
-              <img src="/img/home/how-i-work_add-spice.svg" className="mb-2 w-14" />
+              <img src="./img/home/how-i-work_add-spice.svg" className="mb-2 w-14" />
               <h3 className="font-serif text-title text-2xl">
                 Add spice
               </h3>
@@ -208,13 +208,13 @@ export default function Home() {
 
             <div className="relative pb-8 pr-8">
               {/* gradient rosa */}
-              <img src="/img/home/home-decoration-projects-gradient-blur-leasy.svg"
+              <img src="./img/home/home-decoration-projects-gradient-blur-leasy.svg"
                 className="absolute -right-24 -bottom-1 blur-[200px]" />
 
               <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                <img src="/img/home/project-cover-leasy.png"
+                <img src="./img/home/project-cover-leasy.png"
                   className="hover:scale-110 transition-all hidden md:block" />
-                <img src="/img/home/project-cover-leasy-vertical.png"
+                <img src="./img/home/project-cover-leasy-vertical.png"
                   className="hover:scale-110 transition-all block md:hidden" />
               </a>
 
@@ -245,7 +245,7 @@ export default function Home() {
               <div className="flex flex-col gap-12 relative">
 
                 {/* gradient giallo  */}
-                <img src="/img/home/home-decoration-projects-gradient-blur-paypal.svg"
+                <img src="./img/home/home-decoration-projects-gradient-blur-paypal.svg"
                   className="absolute -left-24 top-24 blur-[200px]" />
 
 
@@ -253,7 +253,7 @@ export default function Home() {
 
                 <div className="relative pb-8 pr-8">
                   <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                    <img src="/img/home/project-cover-paypal.png" className="hover:scale-110 transition-all" />
+                    <img src="./img/home/project-cover-paypal.png" className="hover:scale-110 transition-all" />
                   </a>
 
                   <div
@@ -281,7 +281,7 @@ export default function Home() {
 
                 <div className="relative pb-8 pr-8">
                   <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                    <img src="/img/home/project-cover-skyscanner.png"
+                    <img src="./img/home/project-cover-skyscanner.png"
                       className="hover:scale-110 transition-all" />
                   </a>
 
@@ -312,14 +312,14 @@ export default function Home() {
               <div className="flex flex-col gap-12 relative">
 
                 {/* gradient rosa */}
-                <img src="/img/home/home-decoration-projects-gradient-blur-archive.svg"
+                <img src="./img/home/home-decoration-projects-gradient-blur-archive.svg"
                   className="absolute -right-48 -bottom-10 blur-[200px] z-10" />
 
                 {/* Progetto Retake */}
 
                 <div className="relative pb-8 pr-8">
                   <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                    <img src="/img/home/project-cover-retake.png" className="hover:scale-110 transition-all" />
+                    <img src="./img/home/project-cover-retake.png" className="hover:scale-110 transition-all" />
                   </a>
 
                   <div
@@ -348,7 +348,7 @@ export default function Home() {
 
                 <div className="relative pb-8 pr-8">
                   <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                    <img src="/img/home/project-cover-archive.png" className="hover:scale-110 transition-all" />
+                    <img src="./img/home/project-cover-archive.png" className="hover:scale-110 transition-all" />
                   </a>
 
                   <div
@@ -556,7 +556,7 @@ export default function Home() {
             </div>
 
             {/* Absolute Photo */}
-            <img src="/img/home/photo-laura.png"
+            <img src="./img/home/photo-laura.png"
               className="drop-shadow-1 rounded-3xl dashed-border-m-white absolute -top-32 md:top-auto md:bottom-8 md:-right-12 w-[216px] hover:scale-x-[-1] transition-all duration-700" />
           </div>
 
@@ -640,10 +640,10 @@ export default function Home() {
 
       <section className="bg-white relative z-20">
         {/* gradient rosa */}
-        <img src="/img/home/home-decoration-header-gradient-blur.svg"
+        <img src="./img/home/home-decoration-header-gradient-blur.svg"
           className="absolute left-72 -top-60  blur-[180px] z-10" />
         {/* gradient rosa */}
-        <img src="/img/home/home-decoration-header-gradient-blur.svg"
+        <img src="./img/home/home-decoration-header-gradient-blur.svg"
           className="absolute -right-32 -top-40 scale-50 blur-[140px] z-10" />
 
       </section>
