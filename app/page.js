@@ -119,7 +119,8 @@ export default function Home() {
               {/* Freccina animata */}
 
               <img src="./img/home/want-to-know-more.svg" className="absolute md:-right-[11rem] -right-[7rem]" />
- 
+            </div>
+          </div>
         </div>
 
 
