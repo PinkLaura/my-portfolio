@@ -58,7 +58,7 @@ export default function Home() {
           <img src="./img/home/home-decoration-header-gradient-blur.svg"
             className="absolute -left-72 -bottom-20 blur-[140px] z-10" />
           {/* icone decorative */}
-          <Image src="/img/home/home-decoration-header-only-icons.svg" width={140} height={240} className="absolute -left-32 -top-20 z-10" />
+          <Image src="/img/home/home-decoration-header-only-icons.svg" width={140} height={240} alt="icone decorative con immagini relative al design" className="absolute -left-32 -top-20 z-10" />
 
           {/* scritte */}
           <h1 className="text-5xl font-serif font-semibold text-title">
@@ -260,7 +260,7 @@ export default function Home() {
               <img src="./img/home/home-decoration-projects-gradient-blur-leasy.svg"
                 className="absolute -right-24 -bottom-1 blur-[200px]" />
 
-              <Link href="app/projects/leasy-projects/chapter-5" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
+              <Link href="./projects/leasy-projects/chapter-5" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
                 <img src="./img/home/project-cover-leasy.png" alt="leasy-project-cover"
                   className="hover:scale-110 transition-all hidden md:block" />
                 <img src="./img/home/project-cover-leasy-vertical.png"
@@ -279,423 +279,422 @@ export default function Home() {
                     See project
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                       xmlns="http://www.w3.org/2000/svg" >
-                    <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
-                      strokeLinejoin="round" />
-                  </svg>
+                      <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
+                        strokeLinejoin="round" />
+                    </svg>
 
-                </Link>
+                  </Link>
+                </div>
+
               </div>
 
             </div>
 
-          </div>
+            <div className="flex flex-col md:flex-row gap-12 md:gap-16">
+              <div className="flex flex-col gap-12 relative">
 
-          <div className="flex flex-col md:flex-row gap-12 md:gap-16">
-            <div className="flex flex-col gap-12 relative">
-
-              {/* gradient giallo  */}
-              <img src="./img/home/home-decoration-projects-gradient-blur-paypal.svg"
-                className="absolute -left-24 top-24 blur-[200px]" />
+                {/* gradient giallo  */}
+                <img src="./img/home/home-decoration-projects-gradient-blur-paypal.svg"
+                  className="absolute -left-24 top-24 blur-[200px]" />
 
 
-              {/* Progetto Paypal */}
+                {/* Progetto Paypal */}
 
-              <div className="relative pb-8 pr-8">
-                <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                  <img src="./img/home/project-cover-paypal.png" className="hover:scale-110 transition-all" />
-                </a>
+                <div className="relative pb-8 pr-8">
+                  <Link href="./projects/paypal" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
+                    <img src="./img/home/project-cover-paypal.png" className="hover:scale-110 transition-all" />
+                  </Link>
 
-                <div
-                  className="col-span-2 bg-gray-100 p-6 rounded-2xl md:w-3/4 w-11/12  absolute bottom-0 right-0 drop-shadow-[0_0_12px_rgba(208,183,103,1)] dashed-border-m">
+                  <div
+                    className="col-span-2 bg-gray-100 p-6 rounded-2xl md:w-3/4 w-11/12  absolute bottom-0 right-0 drop-shadow-[0_0_12px_rgba(208,183,103,1)] dashed-border-m">
 
-                  <h3 className="text-yellow-700 font-serif text-2xl font-semibold mb-1">PayPal</h3>
-                  <p className="text-paragraph">UX analysis of strengh and weakness of the Paypal app</p>
-                  <div className="flex-row align-right">
-                    <a href="#"
-                      className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-yellow-700 hover:stroke-yellow-700">
-                      See project
-                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
-                          strokeLinejoin="round" />
-                      </svg>
+                    <h3 className="text-yellow-700 font-serif text-2xl font-semibold mb-1">PayPal</h3>
+                    <p className="text-paragraph">UX analysis of strengh and weakness of the Paypal app</p>
+                    <div className="flex-row align-right">
+                      <Link href="./projects/paypal"
+                        className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-yellow-700 hover:stroke-yellow-700">
+                        See project
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
+                            strokeLinejoin="round" />
+                        </svg>
 
-                    </a>
+                      </Link>
+                    </div>
+
                   </div>
-
                 </div>
+
+                {/* Progetto Skyscanner */}
+
+                <div className="relative pb-8 pr-8">
+                  <Link href="./projects/skyscanner" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
+                    <img src="./img/home/project-cover-skyscanner.png"
+                      className="hover:scale-110 transition-all" />
+                  </Link>
+
+                  <div
+                    className="col-span-2 bg-gray-100 p-6 rounded-2xl md:w-3/4 w-11/12  absolute bottom-0 right-0 drop-shadow-[0_0_12px_rgba(96,156,236,1)] dashed-border-m">
+
+                    <h3 className="text-sky-800 font-serif text-2xl font-semibold mb-1">Skyscanner</h3>
+                    <p className="text-paragraph">UX analysis and redesign of some screens of the flights search
+                      function.</p>
+                    <div className="flex-row align-right">
+                      <Link href="./projects/skyscanner" className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-sky-800 hover:stroke-sky-800">
+                        See project
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
+                            strokeLinejoin="round" />
+                        </svg>
+
+                      </Link>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
 
-              {/* Progetto Skyscanner */}
+              <div className="flex flex-col gap-12 relative">
 
-              <div className="relative pb-8 pr-8">
-                <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                  <img src="./img/home/project-cover-skyscanner.png"
-                    className="hover:scale-110 transition-all" />
-                </a>
+                {/* gradient rosa */}
+                <img src="./img/home/home-decoration-projects-gradient-blur-archive.svg"
+                  className="absolute -right-48 -bottom-10 blur-[200px] z-10" />
 
-                <div
-                  className="col-span-2 bg-gray-100 p-6 rounded-2xl md:w-3/4 w-11/12  absolute bottom-0 right-0 drop-shadow-[0_0_12px_rgba(96,156,236,1)] dashed-border-m">
+                {/* Progetto Retake */}
 
-                  <h3 className="text-sky-800 font-serif text-2xl font-semibold mb-1">Skyscanner</h3>
-                  <p className="text-paragraph">UX analysis and redesign of some screens of the flights search
-                    function.</p>
-                  <div className="flex-row align-right">
-                    <a href="#"
-                      className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-sky-800 hover:stroke-sky-800">
-                      See project
-                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
-                          strokeLinejoin="round" />
-                      </svg>
+                <div className="relative pb-8 pr-8">
+                  <Link href="./projects/retake" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
+                    <img src="./img/home/project-cover-retake.png" className="hover:scale-110 transition-all" />
+                  </Link>
 
-                    </a>
+                  <div
+                    className="col-span-2 bg-gray-100 p-6 rounded-2xl md:w-3/4 w-11/12 absolute bottom-0 right-0 drop-shadow-[0_0_12px_rgba(232,193,125,1)] dashed-border-m">
+
+                    <h3 className="text-amber-700 font-serif text-2xl font-semibold mb-1">Retake</h3>
+                    <p className="text-paragraph">UX and UI for an AI photo generator app</p>
+                    <div className="flex-row align-right">
+                      <Link href="./projects/retake"
+                        className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-amber-700 hover:stroke-amber-700">
+                        See project
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
+                            strokeLinejoin="round" />
+                        </svg>
+
+                      </Link>
+                    </div>
+
                   </div>
-
                 </div>
-              </div>
 
+
+                {/* Progetto Archive */}
+
+                <div className="relative pb-8 pr-8">
+                  <Link href="https://pinklaura.github.io/portfolio/projects/all-projects.html" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
+                    <img src="./img/home/project-cover-archive.png" className="hover:scale-110 transition-all" />
+                  </Link>
+
+                  <div
+                    className="col-span-2 bg-gray-100 p-6 rounded-2xl md:w-3/4 w-11/12 absolute bottom-0 right-0 drop-shadow-[0_0_12px_rgba(229,105,146,1)] dashed-border-m">
+
+                    <h3 className="text-pink-700 font-serif text-2xl font-semibold mb-1">Archive</h3>
+                    <p className="text-paragraph">A list of all my projects and drafts, since university.</p>
+                    <div className="flex-row align-right">
+                      <Link href="https://pinklaura.github.io/portfolio/projects/all-projects.html"
+                        className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-pink-700 hover:stroke-pink-700">
+                        See project
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
+                            strokeLinejoin="round" />
+                        </svg>
+
+                      </Link>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
             </div>
 
-            <div className="flex flex-col gap-12 relative">
-
-              {/* gradient rosa */}
-              <img src="./img/home/home-decoration-projects-gradient-blur-archive.svg"
-                className="absolute -right-48 -bottom-10 blur-[200px] z-10" />
-
-              {/* Progetto Retake */}
-
-              <div className="relative pb-8 pr-8">
-                <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                  <img src="./img/home/project-cover-retake.png" className="hover:scale-110 transition-all" />
-                </a>
-
-                <div
-                  className="col-span-2 bg-gray-100 p-6 rounded-2xl md:w-3/4 w-11/12 absolute bottom-0 right-0 drop-shadow-[0_0_12px_rgba(232,193,125,1)] dashed-border-m">
-
-                  <h3 className="text-amber-700 font-serif text-2xl font-semibold mb-1">Retake</h3>
-                  <p className="text-paragraph">UX and UI for an AI photo generator app</p>
-                  <div className="flex-row align-right">
-                    <a href="#"
-                      className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-amber-700 hover:stroke-amber-700">
-                      See project
-                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
-                          strokeLinejoin="round" />
-                      </svg>
-
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-
-
-              {/* Progetto Archive */}
-
-              <div className="relative pb-8 pr-8">
-                <a href="#" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
-                  <img src="./img/home/project-cover-archive.png" className="hover:scale-110 transition-all" />
-                </a>
-
-                <div
-                  className="col-span-2 bg-gray-100 p-6 rounded-2xl md:w-3/4 w-11/12 absolute bottom-0 right-0 drop-shadow-[0_0_12px_rgba(229,105,146,1)] dashed-border-m">
-
-                  <h3 className="text-pink-700 font-serif text-2xl font-semibold mb-1">Archive</h3>
-                  <p className="text-paragraph">A list of all my projects and drafts, since university.</p>
-                  <div className="flex-row align-right">
-                    <a href="#"
-                      className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-pink-700 hover:stroke-pink-700">
-                      See project
-                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.75 4.5L11.25 9L6.75 13.5" strokeLinecap="round"
-                          strokeLinejoin="round" />
-                      </svg>
-
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
           </div>
 
         </div>
+      </section >
 
-      </div>
-    </section >
-
-      {/* ondina di apertura */ }
-      < svg width = "100%" viewBox = "0 0 1280 82" xmlns = "http://www.w3.org/2000/svg" className = "relative z-20" >
+      {/* ondina di apertura */}
+      < svg width="100%" viewBox="0 0 1280 82" xmlns="http://www.w3.org/2000/svg" className="relative z-20" >
         <path className="fill-pink-50"
           d="M335.75 20.2446C189.241 19.1404 50.8712 42.7898 0 54.7525V82H1281V0C1251.43 0 1094.05 32.5141 882.297 42.6364C670.546 52.7587 518.886 21.6249 335.75 20.2446Z"
           fill="bg-pink-50" />
       </svg >
 
 
-    {/* Section About me */ }
-    < section id = "about-me" className = "bg-gradient-to-b from-pink-50 from-25% to-white relative z-40" >
+      {/* Section About me */}
+      < section id="about-me" className="bg-gradient-to-b from-pink-50 from-25% to-white relative z-40" >
 
-      <div className="container p-6 max-w-4xl flex flex-col md:gap-8 gap-4">
-        <h2 className="text-primary_dark text-3xl font-serif font-medium">About me</h2>
+        <div className="container p-6 max-w-4xl flex flex-col md:gap-8 gap-4">
+          <h2 className="text-primary_dark text-3xl font-serif font-medium">About me</h2>
 
-        {/* 3 badges */}
-        <div className="flex md:flex-row flex-col md:gap-8 gap-4 md:items-center text-title text-lg">
-          <div className="flex flex-row gap-1 items-center">
-            <svg className="-rotate-[10deg]  hover:rotate-[20deg] transition-all" width="53" height="53"
-              viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g filter="url(#filter0_d_641_112963)">
-                <rect x="8.85205" y="8.85221" width="36" height="36" rx="8" fill="white"
-                  shapeRendering="crispEdges" />
-                <path
-                  d="M19.3521 30.1855V23.5189C19.3521 21.2177 21.2175 19.3522 23.5187 19.3522H30.1854C32.4866 19.3522 34.3521 21.2177 34.3521 23.5189V30.1855C34.3521 32.4867 32.4866 34.3522 30.1854 34.3522H23.5187C21.2175 34.3522 19.3521 32.4867 19.3521 30.1855Z"
-                  stroke="#FF008A" strokeWidth="0.833333" strokeLinecap="round" />
-                <path
-                  d="M30.6021 28.9355C30.6021 28.9355 29.3521 30.6022 26.8521 30.6022C24.3521 30.6022 23.1021 28.9355 23.1021 28.9355"
-                  stroke="#FF008A" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-                <path
-                  d="M23.9357 25.1855C23.7056 25.1855 23.519 24.999 23.519 24.7689C23.519 24.5388 23.7056 24.3522 23.9357 24.3522C24.1658 24.3522 24.3524 24.5388 24.3524 24.7689C24.3524 24.999 24.1658 25.1855 23.9357 25.1855Z"
-                  fill="#FF008A" stroke="#FF008A" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-                <path
-                  d="M29.7687 25.1855C29.5386 25.1855 29.3521 24.999 29.3521 24.7689C29.3521 24.5388 29.5386 24.3522 29.7687 24.3522C29.9988 24.3522 30.1854 24.5388 30.1854 24.7689C30.1854 24.999 29.9988 25.1855 29.7687 25.1855Z"
-                  fill="#FF008A" stroke="#FF008A" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-              </g>
-              <defs>
-                <filter id="filter0_d_641_112963" x="0.852051" y="0.852207" width="52" height="52"
-                  filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix in="SourceAlpha" type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                  <feOffset />
-                  <feGaussianBlur stdDeviation="4" />
-                  <feComposite in2="hardAlpha" operator="out" />
-                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                  <feBlend mode="normal" in2="BackgroundImageFix"
-                    result="effect1_dropShadow_641_112963" />
-                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_641_112963"
-                    result="shape" />
-                </filter>
-              </defs>
-            </svg>
-            Laura Nesossi
+          {/* 3 badges */}
+          <div className="flex md:flex-row flex-col md:gap-8 gap-4 md:items-center text-title text-lg">
+            <div className="flex flex-row gap-1 items-center">
+              <svg className="-rotate-[10deg]  hover:rotate-[20deg] transition-all" width="53" height="53"
+                viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_641_112963)">
+                  <rect x="8.85205" y="8.85221" width="36" height="36" rx="8" fill="white"
+                    shapeRendering="crispEdges" />
+                  <path
+                    d="M19.3521 30.1855V23.5189C19.3521 21.2177 21.2175 19.3522 23.5187 19.3522H30.1854C32.4866 19.3522 34.3521 21.2177 34.3521 23.5189V30.1855C34.3521 32.4867 32.4866 34.3522 30.1854 34.3522H23.5187C21.2175 34.3522 19.3521 32.4867 19.3521 30.1855Z"
+                    stroke="#FF008A" strokeWidth="0.833333" strokeLinecap="round" />
+                  <path
+                    d="M30.6021 28.9355C30.6021 28.9355 29.3521 30.6022 26.8521 30.6022C24.3521 30.6022 23.1021 28.9355 23.1021 28.9355"
+                    stroke="#FF008A" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                  <path
+                    d="M23.9357 25.1855C23.7056 25.1855 23.519 24.999 23.519 24.7689C23.519 24.5388 23.7056 24.3522 23.9357 24.3522C24.1658 24.3522 24.3524 24.5388 24.3524 24.7689C24.3524 24.999 24.1658 25.1855 23.9357 25.1855Z"
+                    fill="#FF008A" stroke="#FF008A" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                  <path
+                    d="M29.7687 25.1855C29.5386 25.1855 29.3521 24.999 29.3521 24.7689C29.3521 24.5388 29.5386 24.3522 29.7687 24.3522C29.9988 24.3522 30.1854 24.5388 30.1854 24.7689C30.1854 24.999 29.9988 25.1855 29.7687 25.1855Z"
+                    fill="#FF008A" stroke="#FF008A" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                </g>
+                <defs>
+                  <filter id="filter0_d_641_112963" x="0.852051" y="0.852207" width="52" height="52"
+                    filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="4" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix"
+                      result="effect1_dropShadow_641_112963" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_641_112963"
+                      result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+              Laura Nesossi
+            </div>
+
+
+            <div className="flex flex-row gap-1 items-center">
+              <svg className="rotate-[5deg] hover:-rotate-[20deg] transition-all" width="53" height="53"
+                viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_641_112969)">
+                  <rect x="8.20508" y="8.50031" width="36" height="36" rx="8" fill="white"
+                    shapeRendering="crispEdges" />
+                  <path
+                    d="M32.8714 24.8335C32.8714 28.5155 26.2048 34.8335 26.2048 34.8335C26.2048 34.8335 19.5381 28.5155 19.5381 24.8335C19.5381 21.1516 22.5229 18.1669 26.2048 18.1669C29.8867 18.1669 32.8714 21.1516 32.8714 24.8335Z"
+                    stroke="#38BDF8" strokeWidth="0.833333" strokeLinecap="round" />
+                  <path
+                    d="M26.2054 25.667C26.6657 25.667 27.0387 25.2939 27.0387 24.8336C27.0387 24.3734 26.6657 24.0003 26.2054 24.0003C25.7452 24.0003 25.3721 24.3734 25.3721 24.8336C25.3721 25.2939 25.7452 25.667 26.2054 25.667Z"
+                    fill="#38BDF8" stroke="#38BDF8" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                </g>
+                <defs>
+                  <filter id="filter0_d_641_112969" x="0.205078" y="0.500309" width="52" height="52"
+                    filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="4" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix"
+                      result="effect1_dropShadow_641_112969" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_641_112969"
+                      result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+              Milan, Italy
+            </div>
+
+            <div className="flex flex-row gap-1 items-center">
+              <svg className="-rotate-[5deg] hover:rotate-[20deg] transition-all" width="53" height="53"
+                viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_641_112973)">
+                  <rect x="8.20557" y="8.50031" width="36" height="36" rx="8" fill="white"
+                    shapeRendering="crispEdges" />
+                  <path
+                    d="M19.5386 30.2503V33.167C19.5386 34.0875 20.2848 34.8336 21.2052 34.8336H31.2052C32.1257 34.8336 32.8719 34.0875 32.8719 33.167V30.2503"
+                    stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                  <path
+                    d="M18.7056 28.1669V27.3335C18.7056 26.413 19.4518 25.6669 20.3722 25.6669H32.0389C32.9594 25.6669 33.7056 26.413 33.7056 27.3335V28.1669"
+                    stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                  <path d="M26.2056 23.1669V25.6669" stroke="#EAB308" strokeWidth="0.833333"
+                    strokeLinecap="round" strokeLinejoin="round" />
+                  <path
+                    d="M26.2052 23.1669C27.2572 23.1669 27.8719 22.3601 27.8719 20.9794C27.8719 19.5987 26.2052 18.1669 26.2052 18.1669C26.2052 18.1669 24.5386 19.5987 24.5386 20.9794C24.5386 22.3601 25.1532 23.1669 26.2052 23.1669Z"
+                    stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                  <path
+                    d="M23.7056 28.1669C23.7056 29.5476 22.5863 30.6669 21.2056 30.6669C19.8249 30.6669 18.7056 29.5476 18.7056 28.1669"
+                    stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                  <path
+                    d="M28.7056 28.1669C28.7056 29.5476 27.5863 30.6669 26.2056 30.6669C24.8248 30.6669 23.7056 29.5476 23.7056 28.1669"
+                    stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                  <path
+                    d="M33.7056 28.1669C33.7056 29.5476 32.5863 30.6669 31.2056 30.6669C29.8248 30.6669 28.7056 29.5476 28.7056 28.1669"
+                    stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                </g>
+                <defs>
+                  <filter id="filter0_d_641_112973" x="0.205566" y="0.500309" width="52" height="52"
+                    filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="4" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix"
+                      result="effect1_dropShadow_641_112973" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_641_112973"
+                      result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+              20/12/1997
+            </div>
           </div>
 
+          {/* White container */}
+          <div
+            className="flex md:flex-row flex-col-reverse gap-6 p-6 mr-8 text-paragraph bg-white rounded-3xl drop-shadow-2 md:mr-12 mt-36 md:mt-0">
+            <div>
+              <p className="mb-2">
+                During my bachelor's degree in computer science, I realized that my <b>empathy and ability to
+                  connect with others</b> weren't being fully utilized.
+              </p>
+              <p className="mb-2">
+                This sparked a growing interest in the psychology of communication and <b>user experience</b>,
+                which
+                led me to pursue a master's degree focused on these areas.
+              </p>
+              <p className="mb-2">
+                Over the past three years, I’ve deepened my understanding of user psychology and research
+                processes, while also improving my design skills across different company environments.
+              </p>
+              <p>
+                Now, <b>I’m excited to take on new challenges</b> and push myself with innovative projects.
+              </p>
+            </div>
 
-          <div className="flex flex-row gap-1 items-center">
-            <svg className="rotate-[5deg] hover:-rotate-[20deg] transition-all" width="53" height="53"
-              viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g filter="url(#filter0_d_641_112969)">
-                <rect x="8.20508" y="8.50031" width="36" height="36" rx="8" fill="white"
-                  shapeRendering="crispEdges" />
-                <path
-                  d="M32.8714 24.8335C32.8714 28.5155 26.2048 34.8335 26.2048 34.8335C26.2048 34.8335 19.5381 28.5155 19.5381 24.8335C19.5381 21.1516 22.5229 18.1669 26.2048 18.1669C29.8867 18.1669 32.8714 21.1516 32.8714 24.8335Z"
-                  stroke="#38BDF8" strokeWidth="0.833333" strokeLinecap="round" />
-                <path
-                  d="M26.2054 25.667C26.6657 25.667 27.0387 25.2939 27.0387 24.8336C27.0387 24.3734 26.6657 24.0003 26.2054 24.0003C25.7452 24.0003 25.3721 24.3734 25.3721 24.8336C25.3721 25.2939 25.7452 25.667 26.2054 25.667Z"
-                  fill="#38BDF8" stroke="#38BDF8" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-              </g>
-              <defs>
-                <filter id="filter0_d_641_112969" x="0.205078" y="0.500309" width="52" height="52"
-                  filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix in="SourceAlpha" type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                  <feOffset />
-                  <feGaussianBlur stdDeviation="4" />
-                  <feComposite in2="hardAlpha" operator="out" />
-                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                  <feBlend mode="normal" in2="BackgroundImageFix"
-                    result="effect1_dropShadow_641_112969" />
-                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_641_112969"
-                    result="shape" />
-                </filter>
-              </defs>
-            </svg>
-            Milan, Italy
+            {/* Empty container for photo */}
+
+            <div className="relative">
+              <div className="block md:w-[152px] md:h-full h-[144px] w-full"></div>
+            </div>
+
+            {/* Absolute Photo */}
+            <img src="./img/home/photo-laura.png"
+              className="drop-shadow-1 rounded-3xl dashed-border-m-white absolute -top-32 md:top-auto md:bottom-8 md:-right-12 w-[216px] hover:scale-x-[-1] transition-all duration-700" />
           </div>
 
-          <div className="flex flex-row gap-1 items-center">
-            <svg className="-rotate-[5deg] hover:rotate-[20deg] transition-all" width="53" height="53"
-              viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g filter="url(#filter0_d_641_112973)">
-                <rect x="8.20557" y="8.50031" width="36" height="36" rx="8" fill="white"
-                  shapeRendering="crispEdges" />
-                <path
-                  d="M19.5386 30.2503V33.167C19.5386 34.0875 20.2848 34.8336 21.2052 34.8336H31.2052C32.1257 34.8336 32.8719 34.0875 32.8719 33.167V30.2503"
-                  stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-                <path
-                  d="M18.7056 28.1669V27.3335C18.7056 26.413 19.4518 25.6669 20.3722 25.6669H32.0389C32.9594 25.6669 33.7056 26.413 33.7056 27.3335V28.1669"
-                  stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-                <path d="M26.2056 23.1669V25.6669" stroke="#EAB308" strokeWidth="0.833333"
-                  strokeLinecap="round" strokeLinejoin="round" />
-                <path
-                  d="M26.2052 23.1669C27.2572 23.1669 27.8719 22.3601 27.8719 20.9794C27.8719 19.5987 26.2052 18.1669 26.2052 18.1669C26.2052 18.1669 24.5386 19.5987 24.5386 20.9794C24.5386 22.3601 25.1532 23.1669 26.2052 23.1669Z"
-                  stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-                <path
-                  d="M23.7056 28.1669C23.7056 29.5476 22.5863 30.6669 21.2056 30.6669C19.8249 30.6669 18.7056 29.5476 18.7056 28.1669"
-                  stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-                <path
-                  d="M28.7056 28.1669C28.7056 29.5476 27.5863 30.6669 26.2056 30.6669C24.8248 30.6669 23.7056 29.5476 23.7056 28.1669"
-                  stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-                <path
-                  d="M33.7056 28.1669C33.7056 29.5476 32.5863 30.6669 31.2056 30.6669C29.8248 30.6669 28.7056 29.5476 28.7056 28.1669"
-                  stroke="#EAB308" strokeWidth="0.833333" strokeLinecap="round"
-                  strokeLinejoin="round" />
-              </g>
-              <defs>
-                <filter id="filter0_d_641_112973" x="0.205566" y="0.500309" width="52" height="52"
-                  filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix in="SourceAlpha" type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                  <feOffset />
-                  <feGaussianBlur stdDeviation="4" />
-                  <feComposite in2="hardAlpha" operator="out" />
-                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                  <feBlend mode="normal" in2="BackgroundImageFix"
-                    result="effect1_dropShadow_641_112973" />
-                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_641_112973"
-                    result="shape" />
-                </filter>
-              </defs>
-            </svg>
-            20/12/1997
-          </div>
         </div>
 
-        {/* White container */}
-        <div
-          className="flex md:flex-row flex-col-reverse gap-6 p-6 mr-8 text-paragraph bg-white rounded-3xl drop-shadow-2 md:mr-12 mt-36 md:mt-0">
-          <div>
-            <p className="mb-2">
-              During my bachelor's degree in computer science, I realized that my <b>empathy and ability to
-                connect with others</b> weren't being fully utilized.
-            </p>
-            <p className="mb-2">
-              This sparked a growing interest in the psychology of communication and <b>user experience</b>,
-              which
-              led me to pursue a master's degree focused on these areas.
-            </p>
-            <p className="mb-2">
-              Over the past three years, I’ve deepened my understanding of user psychology and research
-              processes, while also improving my design skills across different company environments.
-            </p>
-            <p>
-              Now, <b>I’m excited to take on new challenges</b> and push myself with innovative projects.
-            </p>
+
+        {/* Container recensioni*/}
+        <div className="container p-6 max-w-4xl flex flex-col gap-8 ">
+
+          <h3 className="text-2xl text-title font-serif font-semibold">Someone said that... </h3>
+          <div className="flex flex-col md:flex-row gap-6">
+
+            {/* Recensione 1 */}
+            <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
+              <h4 className="font-serif text-title text-sm">
+                Nome qualcuno
+              </h4>
+              <h4 className="font-serif text-primary_dark text-base font-medium">
+                Nome qualcuno
+              </h4>
+              <p className="text-gray-400 text-sm">
+                Laura has always been beyond expectations.
+                She knows what leads to a good product and does her research properly before diving into design.
+                Her method clears up many questions from reviewers' minds and gives trust in her work.
+              </p>
+              <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
+                See more
+              </a>
+            </div>
+
+            {/* Recensione 2 */}
+            <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
+              <h4 className="font-serif text-title text-sm">
+                Nome qualcuno
+              </h4>
+              <h4 className="font-serif text-primary_dark text-base font-medium">
+                Nome qualcuno
+              </h4>
+              <p className="text-gray-400 text-sm">
+                Laura has always been beyond expectations.
+                She knows what leads to a good product and does her research properly before diving into design.
+                Her method clears up many questions from reviewers' minds and gives trust in her work.
+              </p>
+              <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
+                See more
+              </a>
+            </div>
+
+            {/* Recensione 3 */}
+            <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
+              <h4 className="font-serif text-title text-sm">
+                Nome qualcuno
+              </h4>
+              <h4 className="font-serif text-primary_dark text-base font-medium">
+                Nome qualcuno
+              </h4>
+              <p className="text-gray-400 text-sm">
+                Laura has always been beyond expectations.
+                She knows what leads to a good product and does her research properly before diving into design.
+                Her method clears up many questions from reviewers' minds and gives trust in her work.
+              </p>
+              <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
+                See more
+              </a>
+            </div>
           </div>
-
-          {/* Empty container for photo */}
-
-          <div className="relative">
-            <div className="block md:w-[152px] md:h-full h-[144px] w-full"></div>
-          </div>
-
-          {/* Absolute Photo */}
-          <img src="./img/home/photo-laura.png"
-            className="drop-shadow-1 rounded-3xl dashed-border-m-white absolute -top-32 md:top-auto md:bottom-8 md:-right-12 w-[216px] hover:scale-x-[-1] transition-all duration-700" />
         </div>
-
-      </div>
-
-
-  {/* Container recensioni*/ }
-  <div className="container p-6 max-w-4xl flex flex-col gap-8 ">
-
-    <h3 className="text-2xl text-title font-serif font-semibold">Someone said that... </h3>
-    <div className="flex flex-col md:flex-row gap-6">
-
-      {/* Recensione 1 */}
-      <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
-        <h4 className="font-serif text-title text-sm">
-          Nome qualcuno
-        </h4>
-        <h4 className="font-serif text-primary_dark text-base font-medium">
-          Nome qualcuno
-        </h4>
-        <p className="text-gray-400 text-sm">
-          Laura has always been beyond expectations.
-          She knows what leads to a good product and does her research properly before diving into design.
-          Her method clears up many questions from reviewers' minds and gives trust in her work.
-        </p>
-        <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
-          See more
-        </a>
-      </div>
-
-      {/* Recensione 2 */}
-      <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
-        <h4 className="font-serif text-title text-sm">
-          Nome qualcuno
-        </h4>
-        <h4 className="font-serif text-primary_dark text-base font-medium">
-          Nome qualcuno
-        </h4>
-        <p className="text-gray-400 text-sm">
-          Laura has always been beyond expectations.
-          She knows what leads to a good product and does her research properly before diving into design.
-          Her method clears up many questions from reviewers' minds and gives trust in her work.
-        </p>
-        <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
-          See more
-        </a>
-      </div>
-
-      {/* Recensione 3 */}
-      <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
-        <h4 className="font-serif text-title text-sm">
-          Nome qualcuno
-        </h4>
-        <h4 className="font-serif text-primary_dark text-base font-medium">
-          Nome qualcuno
-        </h4>
-        <p className="text-gray-400 text-sm">
-          Laura has always been beyond expectations.
-          She knows what leads to a good product and does her research properly before diving into design.
-          Her method clears up many questions from reviewers' minds and gives trust in her work.
-        </p>
-        <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
-          See more
-        </a>
-      </div>
-    </div>
-  </div>
 
       </section >
 
-    {/* ondina di chiusura */ }
+      {/* ondina di chiusura */}
 
-    < svg width = "100%" viewBox = "0 0 1280 83" xmlns = "http://www.w3.org/2000/svg"
-  className = "relative -top-[1px] z-50 fill-white" >
-    <path
-      d="M945.25 62.4597C1091.76 63.564 1230.13 39.9146 1281 27.9518V0.704346H0V82.7043C29.5688 82.7043 186.952 50.1902 398.703 40.0679C610.454 29.9456 762.114 61.0794 945.25 62.4597Z" />
+      < svg width="100%" viewBox="0 0 1280 83" xmlns="http://www.w3.org/2000/svg"
+        className="relative -top-[1px] z-50 fill-white" >
+        <path
+          d="M945.25 62.4597C1091.76 63.564 1230.13 39.9146 1281 27.9518V0.704346H0V82.7043C29.5688 82.7043 186.952 50.1902 398.703 40.0679C610.454 29.9456 762.114 61.0794 945.25 62.4597Z" />
       </svg >
 
 
 
 
-    <section className="bg-white relative z-20">
-      {/* gradient rosa */}
-      <img src="./img/home/home-decoration-header-gradient-blur.svg"
-        className="absolute left-72 -top-60  blur-[180px] z-10" />
-      {/* gradient rosa */}
-      <img src="./img/home/home-decoration-header-gradient-blur.svg"
-        className="absolute -right-32 -top-40 scale-50 blur-[140px] z-10" />
+      <section className="bg-white relative z-20">
+        {/* gradient rosa */}
+        <img src="./img/home/home-decoration-header-gradient-blur.svg"
+          className="absolute left-72 -top-60  blur-[180px] z-10" />
+        {/* gradient rosa */}
+        <img src="./img/home/home-decoration-header-gradient-blur.svg"
+          className="absolute -right-32 -top-40 scale-50 blur-[140px] z-10" />
 
-    </section>
+      </section>
 
     </>
 
