@@ -58,7 +58,7 @@ export default function Home() {
           <img src="./img/home/home-decoration-header-gradient-blur.svg"
             className="absolute -left-72 -bottom-20 blur-[140px] z-10" />
           {/* icone decorative */}
-          <Image src="/img/home/home-decoration-header-only-icons.svg" width={140} height={240} alt="icone decorative con immagini relative al design" className="absolute -left-32 -top-20 z-10" />
+          <Image src="./img/home/home-decoration-header-only-icons.svg" width={140} height={240} alt="icone decorative con immagini relative al design" className="absolute -left-32 -top-20 z-10" />
 
           {/* scritte */}
           <h1 className="text-5xl font-serif font-semibold text-title">

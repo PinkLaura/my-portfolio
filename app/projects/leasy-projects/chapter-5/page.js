@@ -15,7 +15,7 @@ export default function LeasyChapter5() {
                         </p>
                     </div>
                     {/* immagine */}
-                    <video className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" loop={true} autoplay="autoPlay" muted>
+                    <video className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white " loop={true} autoPlay="autoplay" muted>
                         <source src=".../public/img/projects/leasy/chapter-5/video-dashboard.mp4" type="video/mp4" />
                         Il tuo browser non supporta questo video :/
                     </video>
@@ -34,7 +34,7 @@ export default function LeasyChapter5() {
                             The “payments” page highlight late payers and allows to see what reminders has been sent. </p>
                     </div>
                     {/* immagine */}
-                    <video className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" loop={true} autoplay="autoPlay" muted>
+                    <video className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
                         <source src="/videos/video-payments.mp4" type="video/mp4" />
                         Il tuo browser non supporta questo video :/
                     </video>
@@ -52,7 +52,7 @@ export default function LeasyChapter5() {
                     </div>
                     {/* immagine */}
                     <Image width={963} height={540}
-                    className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="/img/projects/leasy/chapter-5/tenant-app.png" alt="screenshot di Leasy" />
+                    className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="./img/projects/leasy/chapter-5/tenant-app.png" alt="screenshot di Leasy" />
                 </div>
 
                 {/* row */}
@@ -69,7 +69,7 @@ export default function LeasyChapter5() {
                     </div>
                     {/* immagine */}
                     <Image width={860} height={536}
-                    className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="/img/projects/leasy/chapter-5/property-page.png" alt="screenshot di Leasy" />
+                    className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="./img/projects/leasy/chapter-5/property-page.png" alt="screenshot di Leasy" />
                 </div>
 
             </div>
