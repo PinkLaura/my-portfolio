@@ -11,7 +11,7 @@ export default function Home() {
       <img src="./img/home/home-decoration-header-gradient-blur-2.svg" className="absolute -right-5 -top-12 blur-[140px]" />
 
       {/* Sezione header */}
-      <section className="mt-20 md:mt-40">
+      <section className="mt-32 md:mt-40">
 
 
         {/* container header */}
