@@ -96,6 +96,9 @@ export default function LeasyChapter4() {
                                 subtitle={"how i worked on figma"}
                                 text={"I tried to structure the Design System to mirror the structure of the code and use the most of the previous components."}
                             />
+
+
+                            
                         </div>
 
                         {/* griglia immagini */}
