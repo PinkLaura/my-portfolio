@@ -1,11 +1,17 @@
 export default function LeasyHeaderSection({icon, title, number, paragraphs, maxW}) {
 
-    /*if (maxW === "7") {
-        maxW = "text-paragraph relative z-20 max-w-7/12";
+    if (maxW === "7") {
+        maxW = "text-paragraph relative z-20 w-7/12";
+    }
+    else if (maxW === "9") {
+        maxW = "text-paragraph relative z-20 w-9/12";
+    }
+    else if (maxW === "10") {
+        maxW = "text-paragraph relative z-20 w-10/12";
     }
     else {
         maxW = "text-paragraph relative z-20"
-    };*/
+    };
         
 
     return (
@@ -29,14 +35,12 @@ export default function LeasyHeaderSection({icon, title, number, paragraphs, max
                 </div>
 
                 {/* titoli */}
-                <div className={maxW}>
                     <h1 className="text-title text-6xl font-serif font-medium">{title}</h1>
                     <h2 className="text-leasy text-lg font-medium font-serif uppercase">Leasy - Chapter {number}</h2>
-                </div>
 
 
                 {/* paragrafo */}
-                <div className="text-paragraph relative z-20 ">
+                <div className={maxW}>
                     {paragraphs}
                 </div>
             </div>

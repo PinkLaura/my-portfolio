@@ -29,8 +29,7 @@ export default function LeasyChapter5() {
                 paragraphs={
                     <>
                         <p className="mb-2">Leasy is a <b>financial and administrative</b> platform targeting specifically <b>property
-                            managers and landlords</b>
-                            with a lot of property. It allows to <b>track payments</b> and automatically remind tenants to pay.</p>
+                            managers and landlords</b> with a lot of property. It allows to <b>track payments</b> and automatically remind tenants to pay.</p>
                         <p className="mb-2">
                             After creating the brand, designing an MVP and the design system, we had time to refine our product and
                             add other features.</p>
@@ -41,6 +40,7 @@ export default function LeasyChapter5() {
                         <p></p>
                     </>
                 }
+                maxW={"10"}
             />
 
             <section>
@@ -58,7 +58,7 @@ export default function LeasyChapter5() {
                         {/* immagine */}
                         <div>
                             <video className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
-                                <source src="img/projects/leasy/chapter-5/video-dashboard.mp4" type="video/mp4" />
+                                <source src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/video-dashboard.mp4" type="video/mp4" />
                                 Il tuo browser non supporta questo video :/
                             </video>
                         </div>
@@ -114,7 +114,7 @@ export default function LeasyChapter5() {
                         </div>
                         {/* immagine */}
                         <img width={860} height={536}
-                            className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="img/projects/leasy/chapter-5/property-page.png" alt="screenshot di Leasy" />
+                            className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/property-page.png" alt="screenshot di Leasy" />
                     </div>
 
                 </div>

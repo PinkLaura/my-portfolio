@@ -42,7 +42,7 @@ function Navbar() {
             <nav className="fixed top-0 md:static w-full bg-background md:bg-transparent z-50">
                 <div className="px-6 md:px-24 py-2 md:py-0 md:mt-10 flex flex-row place-content-between">
                     <Link href="/">
-                        <img width={163} height={48} alto="pinklaura-logo" src="img/pinklaura_logo.svg" className="h-12" alt="PinkLaura Logo" />
+                        <img width={163} height={48} alto="pinklaura-logo" src="https://pinklaura.github.io/my-portfolio/img/pinklaura_logo.svg" className="h-12" alt="PinkLaura Logo" />
                     </Link>
 
                     <button onClick={toggleNavbar} data-collapse-toggle="navbar-multi-level" type="button"
@@ -158,7 +158,7 @@ function Navbar() {
                         <li className="hidden md:opacity-100 opacity-0 !m-0 p-1.5 md:relative transition-all" id="logo-in-navbar">
                             <Link href="/"
                                 className="absolute w-14 h-14 -left-1.5 -top-6 hover:stroke-primary_dark hover:drop-shadow-pink hover:rotate-12">
-                                <img width={56} height={56} alt="laura-logo" src="img/pinklaura-logomark.svg" className="w-full" />
+                                <img width={56} height={56} alt="laura-logo" src="https://pinklaura.github.io/my-portfolio/img/pinklaura-logomark.svg" className="w-full" />
                             </Link>
                         </li>
 
