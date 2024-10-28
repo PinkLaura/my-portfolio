@@ -1,13 +1,13 @@
 export default function LeasyHeaderSection({icon, title, number, paragraphs, maxW}) {
 
     if (maxW === "7") {
-        maxW = "text-paragraph relative z-20 w-7/12";
+        maxW = "text-paragraph relative z-20 md:w-7/12";
     }
     else if (maxW === "9") {
-        maxW = "text-paragraph relative z-20 w-9/12";
+        maxW = "text-paragraph relative z-20 md:w-9/12";
     }
     else if (maxW === "10") {
-        maxW = "text-paragraph relative z-20 w-10/12";
+        maxW = "text-paragraph relative z-20md:w-10/12";
     }
     else {
         maxW = "text-paragraph relative z-20"

@@ -20,7 +20,7 @@ export default function LeasyChapter3() {
                 number={'3'}
                 paragraphs={
                     <div className="flex md:flex-row flex-col justify-between">
-                        <div className="w-6/12">
+                        <div className="md:w-6/12">
                             <p className="mb-2">
                                 What are the core features of a property management platform? How should the logic work? How can we deliver maximum value with minimal effort?
                             </p>
@@ -29,7 +29,7 @@ export default function LeasyChapter3() {
                             </p>
                         </div>
 
-                        <div className="bg-indigo-100 p-6 pr-14 rounded-xl dashed-border-m drop-shadow-2 md:w-5/12 text-paragraph">
+                        <div className="bg-indigo-100 p-6 pr-14 rounded-xl dashed-border-m drop-shadow-2 md:w-5/12 text-paragraph mt-8 md:mt-0">
 
                             <div className="absolute -top-2 -right-2 p-3 bg-white drop-shadow-2 -rotate-[15deg] stroke-leasy rounded-[8px] overflow-hidden">
                                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">

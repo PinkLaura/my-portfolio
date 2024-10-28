@@ -45,7 +45,7 @@ export default function LeasyChapter3() {
                     {/* Conducting workshops */}
                     <div className="flex flex-col md:flex-row md:justify-between gap-6">
 
-                        <div className="w-5/12">
+                        <div className="md:w-5/12">
                             <LeasyParagraph
                                 title={"Conducting workshop"}
                                 subtitle={"the reasons behind the effort"}
@@ -63,7 +63,7 @@ export default function LeasyChapter3() {
                         </div>
 
                         <img src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-2/workshop.png"
-                            className="w-6/12 drop-shadow-2 dashed-border-m rounded-xl" />
+                            className="md:w-6/12 drop-shadow-2 dashed-border-m rounded-xl" />
 
                     </div>
 
@@ -109,14 +109,14 @@ export default function LeasyChapter3() {
                         </div>
 
                         <div className="flex md:flex-row flex-col gap-6">
-                            <div className="w-full max-w-72 flex flex-col text-center p-4 gap-2 text-paragraph border border-dashed border-gray-200 bg-gradient-to-t from-gray-50 to-white rounded-xl">
+                            <div className="w-full md:max-w-72 flex flex-col text-center p-4 gap-2 text-paragraph border border-dashed border-gray-200 bg-gradient-to-t from-gray-50 to-white rounded-xl">
                                 <h4 className="text-lg font-semibold">🔍 User at the Center</h4>
                                 <p className="text-sm">
                                     Our product is crafted on the real needs of our users.<br />
                                     We are obsessed with continuous feedback and strive to respond quickly to our customers’ changing exigency and market demands.                                </p>
                             </div>
 
-                            <div className="w-full max-w-72  flex flex-col text-center p-4 gap-2 text-paragraph border border-dashed border-gray-200 bg-gradient-to-t from-gray-50 to-white rounded-xl">
+                            <div className="w-full md:max-w-72  flex flex-col text-center p-4 gap-2 text-paragraph border border-dashed border-gray-200 bg-gradient-to-t from-gray-50 to-white rounded-xl">
                                 <h4 className="text-lg font-semibold">🌻 Integrity</h4>
                                 <p className="text-sm">
                                     We embrace the fundamental principle of being good people.<br />
@@ -124,7 +124,7 @@ export default function LeasyChapter3() {
                                 </p>
                             </div>
 
-                            <div className="w-full max-w-72 flex flex-col text-center p-4 gap-2 text-paragraph border border-dashed border-gray-200 bg-gradient-to-t from-gray-50 to-white rounded-xl">
+                            <div className="w-full md:max-w-72 flex flex-col text-center p-4 gap-2 text-paragraph border border-dashed border-gray-200 bg-gradient-to-t from-gray-50 to-white rounded-xl">
                                 <h4 className="text-lg font-semibold">🚀 Innovation</h4>
                                 <p className="text-sm">
                                     Only because everything has always been done a certain way, doesn’t mean it’s the best way.<br />
@@ -138,7 +138,7 @@ export default function LeasyChapter3() {
                     {/* Brand persona */}
                     <div className="flex flex-col md:flex-row md:justify-between gap-6">
 
-                        <div className="w-5/12">
+                        <div className="md:w-5/12">
                             <LeasyParagraph
                                 title={"The birth of a brand persona"}
                                 subtitle={"Personality and tone of voice"}
@@ -179,14 +179,14 @@ export default function LeasyChapter3() {
 
 
                         <img src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-2/personality.svg"
-                            className="w-6/12" />
+                            className="md:w-6/12" />
                     </div>
 
                     {/* Moodboard */}
                     <div className="flex flex-col md:flex-row gap-8 md:gap-20 md:items-center">
 
                         <img src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-2/moodboard.png"
-                            className="w-5/12 rounded-xl drop-shadow-1" />
+                            className="md:w-5/12 rounded-xl drop-shadow-1" />
 
 
                         <div className="md:w-5/12">
