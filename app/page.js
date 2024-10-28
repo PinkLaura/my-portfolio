@@ -5,24 +5,6 @@ import Link from 'next/link';
 import { useEffect, useRef } from 'react'
 import lottie from 'lottie-web';
 
-/*function AnimazioneFreccia() {
-  const animationContainer = useRef(null);
-
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: animationContainer.current,
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: './freccina-animata.json'
-    });
-  }, []);
-
-  return (
-    <div ref={animationContainer}></div>
-  );
-}*/
-
 
 export default function Home() {
 
@@ -116,9 +98,9 @@ export default function Home() {
               </button>
 
 
-              {/* Freccina animata */}
+              {/* Freccina */}
 
-              <img src="./img/home/want-to-know-more.svg" className="absolute md:-right-[11rem] -right-[7rem]" />
+              <img src="./img/home/want-to-know-more.svg" className="absolute max-w-40 md:-right-[11rem] -right-[7rem]" />
             </div>
           </div>
         </div>
@@ -260,7 +242,7 @@ export default function Home() {
               <img src="./img/home/home-decoration-projects-gradient-blur-leasy.svg"
                 className="absolute -right-24 -bottom-1 blur-[200px]" />
 
-              <Link href="./projects/leasy-projects/chapter-5" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
+              <Link href="./projects/leasy-project/chapter-5" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
                 <img src="./img/home/project-cover-leasy.png" alt="leasy-project-cover"
                   className="hover:scale-110 transition-all hidden md:block" />
                 <img src="./img/home/project-cover-leasy-vertical.png"
@@ -274,7 +256,7 @@ export default function Home() {
                 <p className="text-paragraph">Construction of a property management platform, from ideation to
                   UI</p>
                 <div className="flex-row align-right">
-                  <Link href="./projects/leasy-projects/chapter-5"
+                  <Link href="./projects/leasy-project/chapter-5"
                     className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-indigo-800 hover:stroke-indigo-800">
                     See project
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
