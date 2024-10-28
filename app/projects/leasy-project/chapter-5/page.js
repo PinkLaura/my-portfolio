@@ -79,7 +79,7 @@ export default function LeasyChapter5() {
                         {/* immagine */}
                         <div>
                             <video className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
-                                <source src="img/projects/leasy/chapter-5/video-payments.mp4" type="video/mp4" />
+                                <source src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/video-payments.mp4" type="video/mp4" />
                                 Il tuo browser non supporta questo video :/
                             </video>
                         </div>
@@ -97,7 +97,7 @@ export default function LeasyChapter5() {
                         </div>
                         {/* immagine */}
                         <img width={963} height={540}
-                            className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="img/projects/leasy/chapter-5/tenant-app.png" alt="screenshot di Leasy" />
+                            className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/tenant-app.png" alt="screenshot di Leasy" />
                     </div>
 
                     {/* row */}
