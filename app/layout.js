@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${RecoletaAlt.variable} font-sans`}>
       <body >
-        <div className="overflow-hidden">
+        <div className="overflow-hidden relative">
 
         
 
