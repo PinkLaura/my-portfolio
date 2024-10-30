@@ -26,22 +26,6 @@ export default function Home() {
   }, [])
 
 
-
-  /*var openInterest = function (interestName) {
-
-    var i;
-    var x = document.getElementsByClassName("interest");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    if (interestName != null) {
-      document.getElementById(interestName).style.display = "block";
-    }
-  }*/
-
-
-
-
   return (
 
     <>
