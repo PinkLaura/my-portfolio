@@ -617,7 +617,7 @@ export default function Home() {
           <div className="w-full md:justify-between flex md:flex-row flex-col gap-6 items-end">
 
             {/* Contatti */}
-            <div className="bg-[url('/img/home/contacts-bg.png')] bg-cover rounded-xl drop-shadow-1 dashed-border-l-white md:w-5/12 p-6">
+            <div className="bg-[url('https://pinklaura.github.io/my-portfolio/img/home/contacts-bg.png')] bg-cover rounded-xl drop-shadow-1 dashed-border-l-white md:w-5/12 p-6">
               <h3 className="font-serif font-medium text-lg mb-3" >Contacts</h3>
 
               <div className="flex flex-row gap-2 items-center text-base mb-2">
