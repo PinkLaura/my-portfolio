@@ -1,3 +1,5 @@
+import Carousel from "@/components/image-slider";
+
 export default function PaypalProject() {
     return (
 
@@ -6,7 +8,7 @@ export default function PaypalProject() {
             <div className="container max-w-6xl px-6 my-10 flex flex-col gap-8 relative">
 
                 {/* gradiente decorativo */}
-                <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/gradient-paypal.png"
+                <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/gradient-paypal.svg"
                     className="blur-[140px] absolute -top-24 -left-24 z-10" />
 
                 {/* icona */}
@@ -35,7 +37,23 @@ export default function PaypalProject() {
                     <p>To evaluate the usability of each flow, I conducted a <b>heuristic evaluation</b> followed by quick <b>user testing sessions</b>. This approach allowed me to identify both strengths and weaknesses effectively within a limited timeframe.</p>
                     <p>In the final slides, I contextualized the company’s design choices and proposed an <b>alternative solution</b> to enhance usability, focusing on improved flow clarity and accessibility for a smoother user experience.</p>
                 </div>
+
+
+                <div className="p-6 bg-white dashed-border-l drop-shadow-1 rounded-2xl">
+                <Carousel images={slides} />
+                </div>
             </div>
         </div>
     );
 }
+
+
+const slides = [
+    {
+        image : <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-2.webp" alt="slide 2"/>
+    },
+
+    {
+        image : <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-3.webp" alt="slide 3"/>
+    }
+]
