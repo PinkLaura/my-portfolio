@@ -56,8 +56,8 @@ export default function LeasyChapter5() {
                             </p>
                         </div>
                         {/* immagine */}
-                        <div>
-                            <video className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
+                        <div className="md:w-8/12">
+                            <video className="rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
                                 <source src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/video-dashboard.mp4" type="video/mp4" />
                                 Il tuo browser non supporta questo video :/
                             </video>
@@ -77,8 +77,8 @@ export default function LeasyChapter5() {
                                 The “payments” page highlight late payers and allows to see what reminders has been sent. </p>
                         </div>
                         {/* immagine */}
-                        <div>
-                            <video className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
+                        <div  className="md:w-8/12">
+                            <video className="rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
                                 <source src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/video-payments.mp4" type="video/mp4" />
                                 Il tuo browser non supporta questo video :/
                             </video>
