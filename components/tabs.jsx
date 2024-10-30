@@ -37,7 +37,7 @@ const TabsComponent = ({ items }) => {
                 {/* container tab */}
                 
                     {items.map((item, index) => (
-                        <div className={`${selectedTab === index ? "" : "hidden"}`} >
+                        <div className={`${selectedTab === index ? "min-h-28" : "hidden"}`} >
 
                             {item.content}
                         </div>

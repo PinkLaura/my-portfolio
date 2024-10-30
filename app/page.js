@@ -601,7 +601,7 @@ export default function Home() {
           <div className="w-full md:justify-between flex md:flex-row flex-col gap-6 items-end">
 
             {/* Contatti */}
-            <div className="bg-[url('https://pinklaura.github.io/my-portfolio/img/home/contacts-bg.png')] bg-cover rounded-xl drop-shadow-1 dashed-border-l-white md:w-5/12 p-6">
+            <div className="bg-[url('https://pinklaura.github.io/my-portfolio/img/home/contacts-bg.png')] bg-cover rounded-xl drop-shadow-1 dashed-border-l-white md:w-5/12 p-6 -rotate-[6deg] relative top-4">
               <h3 className="font-serif font-medium text-lg mb-3" >Contacts</h3>
 
               <div className="flex flex-row gap-2 items-center text-base mb-2">
@@ -792,7 +792,7 @@ const interests = [
   {
     title: "events",
     content: (
-      <div className="bg-indigo-50 rounded-[12px] border border-indigo-200 p-2 pt-4" >
+      <div className="min-h-28 bg-indigo-50 rounded-[12px] border border-indigo-200 p-2 pt-4" >
         I love planning unique events for friends: from murder mystery dinners to medieval costume parties and escape rooms - there's always something lined up!
       </div >
     ),
@@ -808,7 +808,7 @@ const interests = [
   {
     title: "chocolate",
     content: (
-      <div className="bg-yellow-50 rounded-[12px] border border-yellow-200 p-2 pt-4" >
+      <div className="min-h-28 bg-yellow-50 rounded-[12px] border border-yellow-200 p-2 pt-4" >
         I'm completely hooked on chocolate—it’s my fuel for creativity and my go-to for just about everything!
       </div >
     ),
@@ -826,7 +826,7 @@ const interests = [
   {
     title: "travels",
     content: (
-      <div className="bg-pink-50 rounded-[12px] border border-pink-200 p-2 pt-4" >
+      <div className="min-h-28 bg-pink-50 rounded-[12px] border border-pink-200 p-2 pt-4" >
         I love exploring new places and try to see something new every year— plus, I have a lot of fun putting together the perfect itinerary!
       </div >
     ),
@@ -841,7 +841,7 @@ const interests = [
   {
     title: "nature",
     content: (
-      <div className="bg-lime-50 rounded-[12px] border border-lime-200 p-2 pt-4" >
+      <div className="min-h-28 bg-lime-50 rounded-[12px] border border-lime-200 p-2 pt-4" >
         As a former girl scout, nature is a huge source of joy for me. I adore camping and backpacking!
       </div >
     ),
@@ -859,7 +859,7 @@ const interests = [
   {
     title: "books",
     content: (
-      <div className="bg-cyan-50 rounded-[12px] border border-cyan-200 p-2 pt-4" >
+      <div className="min-h-28 bg-cyan-50 rounded-[12px] border border-cyan-200 p-2 pt-4" >
         I’m a bookworm at heart, especially into fantasy and dystopian novels. I love getting lost in epic stories!
       </div >
     ),
@@ -878,7 +878,7 @@ const interests = [
   {
     title: "chatting",
     content: (
-      <div className="bg-amber-50 rounded-[12px] border border-amber-200 p-2 pt-4" >
+      <div className="min-h-28 bg-amber-50 rounded-[12px] border border-amber-200 p-2 pt-4" >
         I have a knack for chatting! Whether it's sharing stories or diving into deep conversations, I just can’t help but keep the conversation going.
       </div >
     ),

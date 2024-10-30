@@ -30,18 +30,16 @@ export default function PaypalProject() {
 
 
                 {/* paragrafo */}
-                <div className="text-paragraph relative z-20">
+                <div className="text-paragraph relative z-20 md:w-10/12">
                     <p>In this project, I conducted a 3-day UX analysis of two key user flows in the PayPal app — one well-designed and one with usability challenges. The goal was to present findings and recommendations concisely in a 5-slide deck.</p>
 
-                    <h3 className="font-serif font-medium text-lg mb-2 text-title"> Approach</h3>
+                    <h3 className="font-serif font-medium text-lg mt-4 mb-1 text-title"> Approach</h3>
                     <p>To evaluate the usability of each flow, I conducted a <b>heuristic evaluation</b> followed by quick <b>user testing sessions</b>. This approach allowed me to identify both strengths and weaknesses effectively within a limited timeframe.</p>
                     <p>In the final slides, I contextualized the company’s design choices and proposed an <b>alternative solution</b> to enhance usability, focusing on improved flow clarity and accessibility for a smoother user experience.</p>
                 </div>
 
 
-                <div className="p-6 bg-white dashed-border-l drop-shadow-1 rounded-2xl">
                 <Carousel images={slides} />
-                </div>
             </div>
         </div>
     );
@@ -49,11 +47,42 @@ export default function PaypalProject() {
 
 
 const slides = [
+    
+
     {
-        image : <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-2.webp" alt="slide 2"/>
+        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-03.webp" alt="slide 1" />,
+        src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-01.webp",
+        alt: "slide 1"
+    },
+    
+    {
+        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-02.webp" alt="slide 2" />,
+        src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-02.webp",
+        alt: "slide 2"
+
     },
 
     {
-        image : <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-3.webp" alt="slide 3"/>
+        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-03.webp" alt="slide 3" />,
+        src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-03.webp",
+        alt: "slide 3"
+    },
+
+    {
+        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-03.webp" alt="slide 4" />,
+        src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-04.webp",
+        alt: "slide 4"
+    },
+
+    {
+        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-03.webp" alt="slide 5" />,
+        src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-05.webp",
+        alt: "slide 5"
+    },
+
+    {
+        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-03.webp" alt="slide 6" />,
+        src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-06.webp",
+        alt: "slide 6"
     }
 ]

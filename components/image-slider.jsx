@@ -26,50 +26,69 @@ export default function Carousel({ images }) {
 
     return (
         <div className="relative">
-            <button
-                onClick={handlePrevSlide}
-                className="absolute left-0 m-auto text-5xl inset-y-1/2 cursor-pointer text-gray-400 z-20"
-            >
-                avanti
-            </button>
 
-            <div className="w-full h-[50vh] flex overflow-hidden relative m-auto rounded-lg">
-                <Swipe
-                    onSwipeLeft={handleNextSlide}
-                    onSwipeRight={handlePrevSlide}
-                    className="relative z-10 w-full h-full"
+            <div className="p-6 bg-white dashed-border-l drop-shadow-1 rounded-2xl">
+
+                <button
+                    onClick={handlePrevSlide}
+                    className="absolute -left-4 m-auto inset-y-1/2 cursor-pointer text-paragraph z-20"
                 >
-                    {images.map((image, index) => {
-                        if (index === currentSlide) {
-                            return (
-                                <Image
-                                    key={image.id}
-                                    image={image}
-                                    layout="fill"
-                                    objectFit="contain"
-                                    className="animate-fadeIn"
-                                />
-                            );
-                        }
-                    })}
-                </Swipe>
+                    <div className=" bg-white rounded-full drop-shadow-2 p-3 hover:drop-shadow-1 stroke-paragraph">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 24L12 16L20 8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+
+                    </div>
+
+                </button>
+
+                <div className="w-full flex overflow-hidden relative m-auto rounded-lg aspect-video">
+                    <Swipe
+                        onSwipeLeft={handleNextSlide}
+                        onSwipeRight={handlePrevSlide}
+                        className="relative z-10 w-full h-full"
+                    >
+                        {images.map((image, index) => {
+                            if (index === currentSlide) {
+                                return (
+                                    <img
+                                        key={image.id}
+                                        src={image.src}
+                                        alt={image.alt}
+                                        layout="fill"
+                                        objectFit="contain"
+                                        className="animate-fadeIn"
+                                    />
+                                );
+                            }
+                        })}
+                    </Swipe>
+                </div>
+
+                <button
+                    onClick={handleNextSlide}
+                    className="absolute -right-4 m-auto inset-y-1/2 cursor-pointer text-paragraph z-20 "
+                >
+                    <div className=" bg-white rounded-full drop-shadow-2 p-3 hover:drop-shadow-1 stroke-paragraph">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 8L20 16L12 24" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                    </div>
+
+
+                </button>
             </div>
 
-            <button
-                onClick={handleNextSlide}
-                className="absolute right-0 m-auto text-5xl inset-y-1/2 cursor-pointer text-gray-400 z-20"
-            >
-                indietro
-            </button>
 
-            <div className="relative flex justify-center p-2">
+
+            <div className="relative flex justify-center p-4 my-4 rounded-full bg-white flex-row w-min m-auto drop-shadow-2">
                 {images.map((_, index) => {
                     return (
                         <div
                             className={
                                 index === currentSlide
-                                    ? "h-4 w-4 bg-gray-700 rounded-full mx-2 mb-2 cursor-pointer"
-                                    : "h-4 w-4 bg-gray-300 rounded-full mx-2 mb-2 cursor-pointer"
+                                    ? "h-4 w-4 bg-gray-700 rounded-full mx-2 cursor-pointer"
+                                    : "h-4 w-4 bg-gray-300 rounded-full mx-2 cursor-pointer"
                             }
                             key={index}
                             onClick={() => {
