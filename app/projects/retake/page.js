@@ -63,7 +63,7 @@ export default function retakeProject() {
 
                     <div className="flex flex-col gap-3 md:w-5/12">
                         <h3 className="text-xl text-title font-serif font-semibold" > Finding inspiration </h3>
-                        <h4 className="text-m text-amber-500 font-serif font-medium uppercase" > Moodboard </h4>
+                        <h4 className="text-m text-amber-600 font-serif font-medium uppercase" > Moodboard </h4>
                         <p className="text-paragraph text-l" >
                             To define the product’s visual style, I created a moodboard inspired by two concepts.
                         </p>
@@ -87,8 +87,8 @@ export default function retakeProject() {
                 <div className="flex flex-col md:flex-row md:justify-between gap-8">
 
                     <div className="flex flex-col gap-3 md:w-5/12">
-                        <h3 className="text-xl text-title font-serif font-semibold" > Finding inspiration </h3>
-                        <h4 className="text-m text-amber-500 font-serif font-medium uppercase" > Moodboard </h4>
+                        <h3 className="text-xl text-title font-serif font-semibold" > Style final choiches </h3>
+                        <h4 className="text-m text-amber-600 font-serif font-medium uppercase" > Colors and typography </h4>
                         <p className="text-paragraph text-l" >
                             From the moodboard, <b>I derived a primary color and an accent gradient</b>, then crafted variations for higher text contrast and gradient-based backgrounds.
                         </p>
@@ -106,7 +106,7 @@ export default function retakeProject() {
 
                     <div className="flex flex-col gap-3 md:w-8/12">
                         <h3 className="text-xl text-title font-serif font-semibold" > Towards the product </h3>
-                        <h4 className="text-m text-amber-500 font-serif font-medium uppercase" > Design system and illustrations </h4>
+                        <h4 className="text-m text-amber-600 font-serif font-medium uppercase" > Design system and illustrations </h4>
                         <p className="text-paragraph text-l" >
                             To build the app, I applied <b>atomic design principles</b>, beginning with small components and gradually assembling them into the full interface.
                         </p>
