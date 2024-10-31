@@ -39,7 +39,7 @@ export default function LeasyChapter4() {
 
             <section>
                 <div className="container max-w-6xl px-6 md:my-24 flex flex-col md:gap-32 gap-12 relative">
-                    <img className="rounded-3xl drop-shadow-2 border-2 border-gray-600/10" width={1080} height={367}
+                    <img className="rounded-3xl drop-shadow-2 border-2 border-gray-600/10" 
                         src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-4/from-this-to-this.svg" alt="image from screenshots to wireframe" />
 
 
@@ -59,7 +59,7 @@ export default function LeasyChapter4() {
                         <div className="flex md:flex-row flex-col gap-8">
                             {/* first */}
                             <div className="flex flex-col w-full ring-4 ring-inset ring-white/40 drop-shadow-2 bg-white text-paragraph text-l rounded-2xl overflow-hidden">
-                                <Image src="/img/projects/leasy/chapter-4/properties-list.png" alt="properties" width={346} height={190} className="w-full hover:scale-110 transition-all" />
+                                <Image src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-4/properties-list.png" alt="properties" width={346} height={190} className="w-full hover:scale-110 transition-all" />
                                 <div className="p-4">
                                     <h4 className="font-bold">No more buttons everywhere</h4>
                                     <p>More intuitive affordances for less visual pollution and cognitive weight.</p>
@@ -68,7 +68,7 @@ export default function LeasyChapter4() {
 
                             {/* second */}
                             <div className="flex flex-col w-full ring-4 ring-inset ring-white/40 drop-shadow-2 bg-white text-paragraph text-l rounded-2xl overflow-hidden">
-                                <Image src="/img/projects/leasy/chapter-4/navigation.png" alt="navigation" width={346} height={190} className="w-full hover:scale-110 transition-all" />
+                                <Image src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-4/navigation.png" alt="navigation" width={346} height={190} className="w-full hover:scale-110 transition-all" />
                                 <div className="p-4">
                                     <h4 className="font-bold">A new navigation system</h4>
                                     <p>A nice way to show steps and manage creation of instances.</p>
@@ -77,7 +77,7 @@ export default function LeasyChapter4() {
 
                             {/* thirs */}
                             <div className="flex flex-col w-full ring-4 ring-inset ring-white/40 drop-shadow-2 bg-white text-paragraph text-l rounded-2xl overflow-hidden">
-                                <Image src="/img/projects/leasy/chapter-4/sidebar.png" alt="sidebar" width={346} height={190} className="w-full hover:scale-110 transition-all" />
+                                <Image src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-4/sidebar.png" alt="sidebar" width={346} height={190} className="w-full hover:scale-110 transition-all" />
                                 <div className="p-4">
                                     <h4 className="font-bold">A less imposive sidebar</h4>
                                     <p>A lighter and smaller sidebar, to leave the screen space at the content.</p>
@@ -98,7 +98,7 @@ export default function LeasyChapter4() {
                             />
 
 
-                            
+
                         </div>
 
                         {/* griglia immagini */}
