@@ -223,7 +223,7 @@ export default function LeasyChapter4() {
                                 <div className="md:absolute -right-16 top-12">
                                     <GrayIconNote
                                         icon={<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_393_69254)">
+                                            <g clipPath="url(#clip0_393_69254)">
                                                 <path d="M12 23.8289C12.5523 23.8289 13 23.3812 13 22.8289C13 22.2766 12.5523 21.8289 12 21.8289C11.4477 21.8289 11 22.2766 11 22.8289C11 23.3812 11.4477 23.8289 12 23.8289Z" fill="#7C7C7C" strokeLinecap="round" strokeLinejoin="round" />
                                                 <path d="M3 8.82886C3.55228 8.82886 4 8.38114 4 7.82886C4 7.27658 3.55228 6.82886 3 6.82886C2.44772 6.82886 2 7.27658 2 7.82886C2 8.38114 2.44772 8.82886 3 8.82886Z" fill="#7C7C7C" strokeLinecap="round" strokeLinejoin="round" />
                                                 <path d="M3 18.8289C3.55228 18.8289 4 18.3812 4 17.8289C4 17.2766 3.55228 16.8289 3 16.8289C2.44772 16.8289 2 17.2766 2 17.8289C2 18.3812 2.44772 18.8289 3 18.8289Z" fill="#7C7C7C" strokeLinecap="round" strokeLinejoin="round" />
