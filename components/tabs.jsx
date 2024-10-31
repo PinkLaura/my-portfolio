@@ -27,7 +27,7 @@ const TabsComponent = ({ items }) => {
                             onClick={() => setSelectedTab(index)}
                             className={`relative bg-white p-2 rounded-[8px] drop-shadow-2 hover:drop-shadow-1  stroke-indigo-400 transition-all 
                                 
-                            ${selectedTab === index ? 'scale-[1.7] top-2 mx-4 border border-gray-200' : ""} ` + (index % 2 ? 'rotate-[7deg]' : '-rotate-[7deg]')}>
+                            ${selectedTab === index ? 'scale-[1.7] top-1 mx-4 border border-gray-200' : ""} ` + (index % 2 ? 'rotate-[7deg]' : '-rotate-[7deg]')}>
                             {item.icon}
                         </button>
                     ))}

@@ -379,7 +379,7 @@ export default function Home() {
                 {/* Progetto Archive */}
 
                 <div className="relative pb-8 pr-8">
-                  <Link href="https://pinklaura.github.io/portfolio/projects/all-projects.html" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
+                  <Link href="https://pinklaura.github.io/portfolio/projects/all-projects.html" target="blank" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
                     <img src="./img/home/project-cover-archive.png" className="hover:scale-110 transition-all" />
                   </Link>
 
@@ -389,7 +389,7 @@ export default function Home() {
                     <h3 className="text-pink-700 font-serif text-2xl font-semibold mb-1">Archive</h3>
                     <p className="text-paragraph">A list of all my projects and drafts, since university.</p>
                     <div className="flex-row align-right">
-                      <Link href="https://pinklaura.github.io/portfolio/projects/all-projects.html"
+                      <Link href="https://pinklaura.github.io/portfolio/projects/all-projects.html" target="blank"
                         className="text-gray-400 stroke-gray-400 text-xs flex items-center justify-end hover:text-pink-700 hover:stroke-pink-700">
                         See project
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"

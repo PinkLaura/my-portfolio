@@ -7,7 +7,7 @@ export default function retakeProject() {
             <div className="container max-w-6xl px-6 my-10 flex flex-col gap-8 relative">
 
                 {/* gradiente decorativo */}
-                <img src="https://pinklaura.github.io/my-portfolio/img/projects/retake/gradient-retake.svg"
+                <img src="https://pinklaura.github.io/my-portfolio/img/projects/retake/Decorative-gradient-retake.svg"
                     className="blur-[140px] absolute -top-24 -left-24 z-10" />
 
                 {/* icona */}
@@ -43,7 +43,7 @@ export default function retakeProject() {
             </div>
 
             {/* container con tutto */}
-            <div className="container max-w-6xl px-6 my-10 flex flex-col gap-28 relative">
+            <div className="container max-w-6xl px-6 my-10 flex flex-col md:gap-28 gap-8 relative">
 
                 {/* wireframes */}
 
@@ -118,7 +118,7 @@ export default function retakeProject() {
                         </p>
                     </div>
 
-                    <img className="drop-shadow-2"
+                    <img 
                         src="https://pinklaura.github.io/my-portfolio/img/projects/retake/design-system.svg" />
 
                 </div>

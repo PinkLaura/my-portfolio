@@ -50,7 +50,7 @@ const slides = [
     
 
     {
-        src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/paypal-cover.png",
+        src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/paypal-cover.webp",
         alt: "slide 1"
     },
     
