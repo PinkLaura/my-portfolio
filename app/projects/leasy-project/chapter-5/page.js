@@ -121,7 +121,7 @@ export default function LeasyChapter5() {
                             className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/property-page.png" alt="screenshot di Leasy" />
                     </div>
 
-                    {/* FEATURE DEPP DIVE INTRO */}
+                    {/* FEATURE DEEP DIVE INTRO */}
                     <div className="flex flex-col gap-4 ">
                         {/* testi */}
                         <div className="flex flex-col gap-3">
@@ -154,7 +154,7 @@ export default function LeasyChapter5() {
                         </div>
                         {/* immagine */}
                         <img
-                            className="md:w-5/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/board.png" alt="screenshot di Leasy" />
+                            className="md:w-5/12" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/board.png" alt="screenshot di Leasy" />
                     </div>
 
                     {/* Designing the flow */}
@@ -175,7 +175,7 @@ export default function LeasyChapter5() {
 
                         {/* immagine */}
                         <img
-                            className="rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/flow.svg" alt="screenshot di Leasy" />
+                            className="mt-8" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/flow.svg" alt="screenshot di Leasy" />
                     </div>
 
                     {/* applications - tenant */}
