@@ -118,7 +118,7 @@ export default function retakeProject() {
                         </p>
                     </div>
 
-                    <img 
+                    <img
                         src="https://pinklaura.github.io/my-portfolio/img/projects/retake/design-system.svg" />
 
                 </div>

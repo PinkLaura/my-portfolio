@@ -705,54 +705,54 @@ export default function Home() {
 
             {/* Recensione 1 */}
             <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
-              <h4 className="font-serif text-title text-sm">
-                Nome qualcuno
+              <h4 className="font-serif text-gray-400 text-sm">
+                Harun Heybet
               </h4>
               <h4 className="font-serif text-primary_dark text-base font-medium">
-                Nome qualcuno
+                CTO & Dev Lead
               </h4>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-500 text-sm">
                 Laura has always been beyond expectations.
-                She knows what leads to a good product and does her research properly before diving into design.
-                Her method clears up many questions from reviewers' minds and gives trust in her work.
+                <br />She knows what leads to a good product and does her research properly before diving into design.
+                <br />Her method <b>clears up many questions</b> from reviewers' minds and gives trust in her work.
               </p>
-              <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
+              <a href="https://www.linkedin.com/in/laura-nesossi/details/recommendations/" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
                 See more
               </a>
             </div>
 
             {/* Recensione 2 */}
             <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
-              <h4 className="font-serif text-title text-sm">
-                Nome qualcuno
+              <h4 className="font-serif text-gray-400 text-sm">
+                Federico Gallina
               </h4>
               <h4 className="font-serif text-primary_dark text-base font-medium">
-                Nome qualcuno
+                CEO & Product Manager
               </h4>
-              <p className="text-gray-400 text-sm">
-                Laura has always been beyond expectations.
-                She knows what leads to a good product and does her research properly before diving into design.
-                Her method clears up many questions from reviewers' minds and gives trust in her work.
+              <p className="text-gray-500 text-sm">
+                Laura consistently <b>exceeded expectations</b> in her role.
+                <br />Though her professional experience spans just three years, she displayed the <b>maturity, skill, and confidence of a seasoned designer</b>.
+                I have no doubt that she will be a valuable asset to any team she joins.
               </p>
-              <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
+              <a href="https://www.linkedin.com/in/laura-nesossi/details/recommendations/" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
                 See more
               </a>
             </div>
 
             {/* Recensione 3 */}
             <div className="bg-white drop-shadow-1 p-6 dashed-border-m rounded-xl flex flex-col w-full gap-1">
-              <h4 className="font-serif text-title text-sm">
-                Nome qualcuno
+              <h4 className="font-serif text-gray-400 text-sm">
+                Davide Vitale
               </h4>
               <h4 className="font-serif text-primary_dark text-base font-medium">
-                Nome qualcuno
+                COO & Co-founder
               </h4>
-              <p className="text-gray-400 text-sm">
-                Laura has always been beyond expectations.
-                She knows what leads to a good product and does her research properly before diving into design.
-                Her method clears up many questions from reviewers' minds and gives trust in her work.
+              <p className="text-gray-500 text-sm">
+                Laura excels in her role as our designer.
+                <br />Her CS background allows her to seamlessly blend design principles with technical understanding.
+                <br />She consistently deliveres smart, <b>user-focused solutions that align perfectly with our technical requirements</b>.
               </p>
-              <a href="#" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
+              <a href="https://www.linkedin.com/in/laura-nesossi/details/recommendations/" className="mt-1 text-primary_dark/50 text-sm hover:text-primary">
                 See more
               </a>
             </div>
@@ -770,8 +770,6 @@ export default function Home() {
       </svg >
 
 
-
-
       <section className="bg-white relative z-20">
         {/* gradient rosa */}
         <img src="./img/home/home-decoration-header-gradient-blur.svg"
@@ -779,6 +777,32 @@ export default function Home() {
         {/* gradient rosa */}
         <img src="./img/home/home-decoration-header-gradient-blur.svg"
           className="absolute -right-32 -top-40 scale-50 blur-[140px] z-10" />
+
+
+        < div className="container p-6 max-w-4xl flex flex-col gap-8" >
+
+          <div className="flex flex-row px-4 items-center gap-4 bg-white rounded-lg dashed-border-m drop-shadow-2 z-20 my-16">
+            <img className="" src="https://pinklaura.github.io/my-portfolio/img/home/airplane-decoration.svg" />
+
+            <div className="p-8 justify-between flex flex-row w-full items-center">
+              <div className="flex flex-col gap-1">
+                <h2 className="text-xl font-serif text-title">
+                  Wants to chat?
+                </h2>
+                <p>
+                  If you are in the need of a design or just want to chat, you can drop me a line!
+                </p>
+              </div>
+
+              {/* pulsante rosa */}
+              <button
+                className="flex w-max h-min rounded-full py-3 px-6 text-white bg-primary_dark hover:bg-primary drop-shadow-pink hover:drop-shadow-pink_strong"
+                href="mailto:laura_nesossi@protonmail.com">
+                Contact me
+              </button>
+            </div>
+          </div>
+        </div>
 
       </section>
 
