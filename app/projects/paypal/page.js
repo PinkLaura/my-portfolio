@@ -50,38 +50,32 @@ const slides = [
     
 
     {
-        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/paypal-cover.png" alt="slide 1" />,
         src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/paypal-cover.png",
         alt: "slide 1"
     },
     
     {
-        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-02.webp" alt="slide 2" />,
         src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-02.webp",
         alt: "slide 2"
 
     },
 
     {
-        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-03.webp" alt="slide 3" />,
         src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-03.webp",
         alt: "slide 3"
     },
 
     {
-        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-04.webp" alt="slide 4" />,
         src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-04.webp",
         alt: "slide 4"
     },
 
     {
-        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-05.webp" alt="slide 5" />,
         src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-05.webp",
         alt: "slide 5"
     },
 
     {
-        image: <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-06.webp" alt="slide 6" />,
         src: "https://pinklaura.github.io/my-portfolio/img/projects/paypal/slide-06.webp",
         alt: "slide 6"
     }
