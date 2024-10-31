@@ -98,24 +98,24 @@ export default function LeasyChapter3() {
                         <h3 className="text-title font-serif text-2xl font-semibold">
                             Not everything works
                         </h3>
-                        <p className="text-paragraph text-lg my-2">
+                        <p className="text-paragraph text-lg mt-2 mb-8">
                             Here there are some wireframes that I discarded to simplify the development.
                         </p>
 
-                        <div className="flex flex-col md:flex-row gap-8 text-gray-500">
-                            <div className="flex flex-col gap-4 items-center">
+                        <div className=" flex flex-col md:flex-row gap-8 text-gray-500">
+                            <div className="w-full flex flex-col gap-4 items-center">
                                 <img className="bg-gray-100" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-3/properties-list.svg" />
                                 <p className="italic">
                                     Side sheet to show active leases and payments from property list view
                                 </p>
                             </div>
-                            <div className="flex flex-col gap-4 items-center ">
+                            <div className="w-full flex flex-col gap-4 items-center ">
                                 <img className="bg-gray-100" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-3/properties-list.svg" />
                                 <p className="italic">
                                     A collapsable to better show the difference between units and properties
                                 </p>
                             </div>
-                            <div className="flex flex-col gap-4 items-center">
+                            <div className="w-full flex flex-col gap-4 items-center">
                                 <img className="bg-gray-100" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-3/property.svg" />
                                 <p className="italic">
                                     A complex calendar view to visualize the occupancy of a property
