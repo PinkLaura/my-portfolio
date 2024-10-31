@@ -46,7 +46,7 @@ export default function LeasyChapter5() {
             <section>
                 <div className="container max-w-6xl px-6 md:my-32 flex flex-col md:gap-24 gap-12 relative">
 
-                    {/* row */}
+                    {/* dashabord */}
                     <div className="flex flex-col md:flex-row md:gap-24 gap-4 md:justify-between">
                         {/* testi */}
                         <div className="flex flex-col gap-3 md:w-3/12">
@@ -64,7 +64,7 @@ export default function LeasyChapter5() {
                         </div>
                     </div>
 
-                    {/* row */}
+                    {/* payments */}
                     <div className="flex flex-col md:flex-row md:gap-24 gap-4 md:justify-between">
                         {/* testi */}
                         <div className="flex flex-col gap-3 md:w-3/12">
@@ -74,10 +74,11 @@ export default function LeasyChapter5() {
                                 reconciliation.
                             </p>
                             <p className="text-paragraph">
-                                The “payments” page highlight late payers and allows to see what reminders has been sent. </p>
+                                The “payments” page highlight late payers and allows to see what reminders has been sent.
+                            </p>
                         </div>
                         {/* immagine */}
-                        <div  className="md:w-8/12">
+                        <div className="md:w-8/12">
                             <video className="rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
                                 <source src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/video-payments.mp4" type="video/mp4" />
                                 Il tuo browser non supporta questo video :/
@@ -86,13 +87,16 @@ export default function LeasyChapter5() {
                     </div>
 
 
-                    {/* row */}
-                    <div className="flex flex-col md:flex-row md:gap-24 gap-4">
+                    {/* tenant app */}
+                    <div className="flex flex-col md:flex-row md:gap-24 gap-4 md:justify-between">
                         {/* testi */}
                         <div className="flex flex-col gap-3 md:w-3/12">
                             <h3 className="text-2xl text-title font-semibold font-serif">Tenant App</h3>
                             <p className="text-paragraph mb-2">
                                 The tenant app allow the tenant to see their payments and access receipts.
+                            </p>
+                            <p className="text-paragraph">
+                                It also provides a chat to facilitate communications between tenants and landlords.
                             </p>
                         </div>
                         {/* immagine */}
@@ -100,8 +104,8 @@ export default function LeasyChapter5() {
                             className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/tenant-app.png" alt="screenshot di Leasy" />
                     </div>
 
-                    {/* row */}
-                    <div className="flex flex-col md:flex-row md:gap-24 gap-4">
+                    {/* property page */}
+                    <div className="flex flex-col md:flex-row md:gap-24 gap-4 md:justify-between">
                         {/* testi */}
                         <div className="flex flex-col gap-3 md:w-3/12">
                             <h3 className="text-2xl text-title font-semibold font-serif">Property Page</h3>
@@ -116,6 +120,126 @@ export default function LeasyChapter5() {
                         <img width={860} height={536}
                             className="md:w-8/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/property-page.png" alt="screenshot di Leasy" />
                     </div>
+
+                    {/* FEATURE DEPP DIVE INTRO */}
+                    <div className="flex flex-col gap-4 ">
+                        {/* testi */}
+                        <div className="flex flex-col gap-3">
+                            <h2 className="text-4xl text-title font-medium font-serif">Features deep dive</h2>
+                            <h4 className="text-m text-leasy font-serif font-medium uppercase" >Tenant applications, screening and Contract registration</h4>
+
+                            <p className="text-paragraph mb-2">
+                                Not every feature was simple to design—some required <b>in-depth technical and contextual understanding</b>.
+                            </p>
+                            <p className="text-paragraph mb-2">
+                                In this case, we developed a complex flow that guides users from collecting tenant applications for an available rental property to registering the final contract with the revenue agency.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Understanding the needs */}
+                    <div className="flex flex-col md:flex-row md:gap-24 gap-4 md:justify-between">
+                        {/* testi */}
+                        <div className="flex flex-col gap-3 md:w-6/12">
+                            <h3 className="text-2xl text-title font-semibold font-serif">Understanding the needs</h3>
+                            <p className="text-paragraph mb-2">
+                                To kick off, I studied the context to identify constraints and potential solutions, preparing a list of targeted questions for the product manager.
+                            </p>
+                            <p className="text-paragraph mb-2">
+                                We then held a collaborative meeting to define the structure of the feature and address key pain points.
+                            </p>
+                            <p className="text-paragraph">
+                                This session resulted in a list of requirements and a rough outline of the feature, setting a clear foundation for the design process.
+                            </p>
+                        </div>
+                        {/* immagine */}
+                        <img
+                            className="md:w-5/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/board.png" alt="screenshot di Leasy" />
+                    </div>
+
+                    {/* Designing the flow */}
+                    <div className="flex flex-col gap-4">
+                        {/* testi */}
+                        <div className="flex flex-col gap-3">
+                            <h3 className="text-2xl text-title font-semibold font-serif">Designing the flow</h3>
+                            <p className="text-paragraph mb-2">
+                                For the more technical aspect—contract registration with the Italian revenue agency—I needed to gather and organize all relevant information to determine exactly what we needed to ask the user.
+                            </p>
+                            <p className="text-paragraph mb-2">
+                                Contract registration in Italy is notoriously complex, even for experts, with information that’s often scattered and mixed with niche, non-applicable details.
+                            </p>
+                            <p className="text-paragraph">
+                                My goal was to simplify and restructure this process, making the information accessible and understandable for non-technical users, while also providing essential context.
+                            </p>
+                        </div>
+
+                        {/* immagine */}
+                        <img
+                            className="rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/flow.svg" alt="screenshot di Leasy" />
+                    </div>
+
+                    {/* applications - tenant */}
+                    <div className="flex flex-col md:flex-row md:gap-24 gap-4 md:justify-between">
+                        {/* testi */}
+                        <div className="flex flex-col gap-3 md:w-4/12">
+                            <h4 className="text-m text-leasy font-serif font-medium uppercase" >Results</h4>
+                            <h3 className="text-2xl text-title font-semibold font-serif">Applications - Tenant App</h3>
+                            <p className="text-paragraph">
+                                Tenants receive an invitation to register on the app, where they can fill out their application, review the details, and check for status updates.
+                            </p>
+                        </div>
+
+                        {/* immagine */}
+                        <img
+                            className="md:w-7/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/application-tenant-side.png" alt="screenshot di Leasy" />
+                    </div>
+
+                    {/* applications - pm */}
+                    <div className="flex flex-col md:flex-row md:gap-24 gap-4 md:justify-between">
+                        {/* testi */}
+                        <div className="flex flex-col gap-3 md:w-4/12">
+                            <h4 className="text-m text-leasy font-serif font-medium uppercase" >Results</h4>
+                            <h3 className="text-2xl text-title font-semibold font-serif">Applications - Property Manager Platform</h3>
+                            <p className="text-paragraph mb-2">
+                                The property manager accesses a dashboard to review and evaluate all tenant applications.
+                            </p>
+                            <p className="text-paragraph">
+                                They can view each tenant’s details, send status updates directly, and, once ready, use the collected information to generate the contract to register.
+                            </p>
+                        </div>
+
+                        {/* immagine */}
+                        <div className="md:w-8/12">
+                            <video className="rounded-2xl drop-shadow-2 dashed-border-l-white bg-gray-50" loop={true} autoPlay="autoplay" muted>
+                                <source src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/video-applications.mp4" type="video/mp4" />
+                                Il tuo browser non supporta questo video :/
+                            </video>
+                        </div>
+                    </div>
+
+
+                    {/* applications - pm */}
+                    <div className="flex flex-col md:flex-row md:gap-24 gap-4 md:justify-between">
+                        {/* testi */}
+                        <div className="flex flex-col gap-3 md:w-4/12">
+                            <h4 className="text-m text-leasy font-serif font-medium uppercase" >Results</h4>
+                            <h3 className="text-2xl text-title font-semibold font-serif">Contract registration and monetization</h3>
+                            <p className="text-paragraph mb-2">
+                                At the end, contract registration is streamlined into a simple, user-friendly form  with explanations included to guide users through each question.
+                            </p>
+                            <p className="text-paragraph mb-2">
+                                Since this was also one of our first paid features, I focused on the monetization aspect.
+                            </p>
+                            <p className="text-paragraph">
+                                To draw attention, I added a colorful banner on every contract page and designed a pricing page that encourages users to consider the premium plan.
+                            </p>
+                        </div>
+
+                        {/* immagine */}
+                        <img
+                            className="md:w-7/12 rounded-2xl drop-shadow-2 dashed-border-l-white" src="https://pinklaura.github.io/my-portfolio/img/projects/leasy/chapter-5/contract-registration.png" alt="screenshot di Leasy" />
+                    </div>
+
 
                 </div>
             </section>
