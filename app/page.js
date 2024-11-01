@@ -50,7 +50,7 @@ export default function Home() {
           </h1>
           <div className="max-w-2xl text-paragraph">
             <p className="text-2xl">
-              Hi! I’m <span className="text-primary font-serif font-medium">PinkLaura</span>, a 🎨 <span
+              Hi! I’m <span className="text-primary font-serif font-medium">Laura</span>, a 🎨 <span
                 className="font-serif ">designer</span> with a 💻 <span className="font-mono">computer science </span>
               background, passionate about using logic and empathy in my work.
             </p>
@@ -788,10 +788,10 @@ export default function Home() {
             <div className="p-8 justify-between flex md:flex-row md:gap-8 gap-4 flex-col w-full items-center">
               <div className="flex flex-col gap-1">
                 <h2 className="text-xl font-serif text-title">
-                  Wants to chat?
+                  Want to chat?
                 </h2>
                 <p>
-                  If you are in the need of a design or just want to chat, you can drop me a line!
+                  Whether you’re looking for a designer or just want to chat, feel free to reach out—I’d love to hear from you!
                 </p>
               </div>
 
