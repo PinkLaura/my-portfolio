@@ -65,7 +65,7 @@ export default function Home() {
             {/* pulsante rosa */}
             <button
               className="rounded-full py-3 px-6 text-white bg-primary_dark hover:bg-primary drop-shadow-pink hover:drop-shadow-pink_strong"
-              href="#">
+              href="https://pinklaura.github.io/my-portfolio/cv-laura.pdf">
               Download resume
             </button>
 
@@ -789,18 +789,19 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h2 className="text-xl font-serif text-title">
                   Want to chat?
-                </h2>
-                <p>
+                </h2 >
+                <p className=" text-paragraph">
                   Whether you’re looking for a designer or just want to chat, feel free to reach out—I’d love to hear from you!
                 </p>
               </div>
 
               {/* pulsante rosa */}
-              <button
-                className="flex w-full md:w-max  justify-center h-min rounded-full py-3 px-6 text-white bg-primary_dark hover:bg-primary drop-shadow-pink hover:drop-shadow-pink_strong"
+              <a
+                className="flex w-full md:w-72  justify-center h-min rounded-full py-3 px-6 text-white bg-primary_dark hover:bg-primary drop-shadow-pink hover:drop-shadow-pink_strong"
                 href="mailto:laura_nesossi@protonmail.com">
+                  
                 Contact me
-              </button>
+              </a>
             </div>
           </div>
         </div>
