@@ -46,7 +46,7 @@ function Navbar() {
                     </Link>
 
                     <button onClick={toggleNavbar} data-collapse-toggle="navbar-multi-level" type="button"
-                        className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm stroke-paragraph rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                        className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm stroke-paragraph rounded-lg md:hidden hover:bg-gray-100"
                         aria-controls="navbar-multi-level" aria-expanded="false">
 
                         <span className="sr-only">Open main menu</span>
@@ -81,7 +81,7 @@ function Navbar() {
 
                         {/* Resume link */}
                         <li className="!m-0">
-                            <Link href="#" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink">
+                            <Link href="https://pinklaura.github.io/my-portfolio/cv-laura.pdf" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink">
                                 Resume</Link>
                         </li>
 
