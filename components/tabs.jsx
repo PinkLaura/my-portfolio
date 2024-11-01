@@ -7,9 +7,7 @@ const TabsComponent = ({ items }) => {
     const [selectedTab, setSelectedTab] = useState(0)
     const firstBtnRef = useRef()
 
-    useEffect(() => {
-        firstBtnRef.current.focus();
-    }, [])
+    
 
     return (
         <div className="bg-white rounded-xl drop-shadow-2 flex flex-col gap-3 text-paragraph  p-4 md:w-7/12">
