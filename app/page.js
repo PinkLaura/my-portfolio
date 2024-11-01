@@ -562,7 +562,7 @@ export default function Home() {
 
           {/* White container */}
           <div
-            className="flex md:flex-row flex-col-reverse gap-6 p-6 mr-8 text-paragraph bg-white rounded-3xl drop-shadow-2 md:mr-12 mt-36 md:mt-0">
+            className="flex md:flex-row flex-col-reverse gap-6 p-6 text-paragraph bg-white rounded-3xl drop-shadow-2 md:mr-12 mt-36 md:mt-0">
             <div>
               <p className="mb-2">
                 During my bachelor's degree in computer science, I realized that my <b>empathy and ability to
@@ -601,7 +601,7 @@ export default function Home() {
           <div className="w-full md:justify-between flex md:flex-row flex-col gap-6 items-end">
 
             {/* Contatti */}
-            <div className="bg-[url('https://pinklaura.github.io/my-portfolio/img/home/contacts-bg.png')] bg-cover rounded-xl drop-shadow-1 dashed-border-l-white md:w-5/12 p-6 -rotate-[6deg] relative top-4">
+            <div className="bg-[url('https://pinklaura.github.io/my-portfolio/img/home/contacts-bg.png')] bg-cover rounded-xl drop-shadow-1 dashed-border-l-white md:w-5/12 w-full p-6 md:-rotate-[6deg] relative md:top-4">
               <h3 className="font-serif font-medium text-lg mb-3" >Contacts</h3>
 
               <div className="flex flex-row gap-2 items-center text-base mb-2">
@@ -779,12 +779,13 @@ export default function Home() {
           className="absolute -right-32 -top-40 scale-50 blur-[140px] z-10" />
 
 
-        < div className="container p-6 max-w-4xl flex flex-col gap-8" >
+        {/* contattami */}
+        < div className="container p-6 max-w-4xl flex md:w-auto w-full flex-col gap-8" >
 
-          <div className="flex flex-row px-4 items-center gap-4 bg-white rounded-lg dashed-border-m drop-shadow-2 z-20 my-16">
+          <div className="flex md:flex-row flex-col md:px-4 items-center bg-white rounded-lg dashed-border-m drop-shadow-2 z-20 my-16">
             <img className="" src="https://pinklaura.github.io/my-portfolio/img/home/airplane-decoration.svg" />
 
-            <div className="p-8 justify-between flex flex-row w-full items-center">
+            <div className="p-8 justify-between flex md:flex-row md:gap-8 gap-4 flex-col w-full items-center">
               <div className="flex flex-col gap-1">
                 <h2 className="text-xl font-serif text-title">
                   Wants to chat?
@@ -796,7 +797,7 @@ export default function Home() {
 
               {/* pulsante rosa */}
               <button
-                className="flex w-max h-min rounded-full py-3 px-6 text-white bg-primary_dark hover:bg-primary drop-shadow-pink hover:drop-shadow-pink_strong"
+                className="flex w-full md:w-max  justify-center h-min rounded-full py-3 px-6 text-white bg-primary_dark hover:bg-primary drop-shadow-pink hover:drop-shadow-pink_strong"
                 href="mailto:laura_nesossi@protonmail.com">
                 Contact me
               </button>
