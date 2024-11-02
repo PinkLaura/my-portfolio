@@ -81,7 +81,7 @@ function Navbar() {
 
                         {/* Resume link */}
                         <li className="!m-0">
-                            <Link href="https://pinklaura.github.io/my-portfolio/cv-laura.pdf" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink">
+                            <Link href="https://pinklaura.github.io/my-portfolio/cv-laura.pdf" target="blank" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink">
                                 Resume</Link>
                         </li>
 

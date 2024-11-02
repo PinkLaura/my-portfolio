@@ -63,11 +63,11 @@ export default function Home() {
           <div className="flex md:gap-2 gap-6 md:flex-row flex-col w-max relative z-20">
 
             {/* pulsante rosa */}
-            <button
+            <a target="blank"
               className="rounded-full py-3 px-6 text-white bg-primary_dark hover:bg-primary drop-shadow-pink hover:drop-shadow-pink_strong"
               href="https://pinklaura.github.io/my-portfolio/cv-laura.pdf">
               Download resume
-            </button>
+            </a>
 
             {/* pulsanti icone e immagine */}
             <div className="relative flex flex-row gap-2 ">
@@ -378,7 +378,7 @@ export default function Home() {
 
                 {/* Progetto Archive */}
 
-                <div className="relative pb-8 pr-8">
+                <div className="relative pb-8 pr-8 z-20">
                   <Link href="https://pinklaura.github.io/portfolio/projects/all-projects.html" target="blank" className="block drop-shadow-1 rounded-3xl dashed-border-l-white overflow-hidden">
                     <img src="./img/home/project-cover-archive.png" className="hover:scale-110 transition-all" />
                   </Link>
@@ -562,7 +562,7 @@ export default function Home() {
 
           {/* White container */}
           <div
-            className="flex md:flex-row flex-col-reverse gap-6 p-6 text-paragraph bg-white rounded-3xl drop-shadow-2 md:mr-12 mt-36 md:mt-0">
+            className="relative flex md:flex-row flex-col-reverse gap-6 p-6 text-paragraph bg-white rounded-3xl drop-shadow-2 md:mr-12 mt-36 md:mt-0">
             <div>
               <p className="mb-2">
                 During my bachelor's degree in computer science, I realized that my <b>empathy and ability to
