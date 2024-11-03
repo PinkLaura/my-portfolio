@@ -54,7 +54,12 @@ module.exports = {
       cursor: {
         'designer': 'url(../img/cursor-default-x1.svg), default',
         'designer': 'url(../img/cursor-pointer-x1.svg), pointer',
+      },
+
+      aspectRatio: {
+        '4/3': '4 / 3',
       }
+      
 
     }
   },
