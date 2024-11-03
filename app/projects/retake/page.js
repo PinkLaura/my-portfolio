@@ -4,11 +4,11 @@ export default function retakeProject() {
 
         <div className="mt-16 mb-8">
 
-            <div className="container max-w-6xl px-6 my-10 flex flex-col gap-8 relative">
+            {/* gradiente decorativo */}
+            <img src="https://pinklaura.github.io/my-portfolio/img/projects/retake/Decorative-gradient-retake.svg"
+                className="blur-[140px] absolute -top-24 -left-24 z-10" />
 
-                {/* gradiente decorativo */}
-                <img src="https://pinklaura.github.io/my-portfolio/img/projects/retake/Decorative-gradient-retake.svg"
-                    className="blur-[140px] absolute -top-24 -left-24 z-10" />
+            <div className="container max-w-6xl px-6 my-10 flex flex-col gap-8 relative">
 
                 {/* icona */}
                 <div className="w-min p-[18px] rounded-[18px] drop-shadow-[0_0_9px_rgba(0,0,0,0.25)] bg-white stroke-amber-500 relative z-20 
@@ -31,9 +31,10 @@ export default function retakeProject() {
                     <p className="mb-2">
                         Bending Spoons developed an exciting new technology that uses AI to <b>generate realistic photos of users</b> in diverse contexts, starting from just a few selfies.
                     </p>
-                    <p >
+                    <p className="mb-2">
                         My task was to create an app that maximizes the user experience and value of this innovative technology.
                     </p>
+
                 </div>
 
                 <img className="dashed-border-l-white rounded-xl drop-shadow-2"
@@ -123,15 +124,25 @@ export default function retakeProject() {
 
                 </div>
 
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col md:flex- gap-8">
 
-                    <div className="flex flex-col gap-3 md:w-8/12">
+                    <div className="flex flex-col md:flex-row gap-3 md:gap-6 md:items-center w-full md:justify-between">
                         <h3 className="text-xl text-title font-serif font-semibold" > Final product </h3>
+                        <a
+                            data-tooltip-target="tooltip" data-ripple-light="true"
+                            className="rounded-full py-2 px-4 bg-white hover:bg-background drop-shadow-2 hover:drop-shadow-1 stroke-paragraph hover:text-amber-600"
+                            href="https://www.figma.com/proto/9v7ZTvG0ulyewEJyBtEXCr/%F0%9F%8C%88-DawnAI---New-app?page-id=120%3A4306&node-id=133-2363&viewport=1066%2C-32%2C0.18&scaling=min-zoom&starting-point-node-id=133%3A2363&show-proto-sidebar=1" target="blank">
+
+                            Explore prototipe
+
+                        </a>
 
                     </div>
 
                     <img className="dashed-border-l-white rounded-xl drop-shadow-2"
                         src="https://pinklaura.github.io/my-portfolio/img/projects/retake/mockup.png" />
+
+
 
                 </div>
 

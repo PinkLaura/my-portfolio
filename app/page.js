@@ -9,9 +9,14 @@ import TabsComponent from "@/components/tabs";
 
 export default function Home() {
 
+
+
+
   useEffect(() => {
     //movimento testo ondina
     const textPath = document.querySelector("#text-path");
+
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
     const h = document.documentElement,
       b = document.body,
@@ -19,8 +24,11 @@ export default function Home() {
       sh = 'scrollHeight';
 
     document.addEventListener("scroll", e => {
-      let percent = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
-      textPath.setAttribute("startOffset", (-percent * 5))
+
+      if (isSafari === false) {
+        let percent = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
+        textPath.setAttribute("startOffset", (-percent * 5))
+      }
     }
     );
   }, [])
@@ -72,20 +80,20 @@ export default function Home() {
             {/* pulsanti icone e immagine */}
             <div className="relative flex flex-row gap-2 ">
 
-              <button
+              <a
                 className="rounded-full p-3 bg-white hover:bg-background drop-shadow-pink hover:drop-shadow-pink_strong stroke-paragraph hover:stroke-primary_dark"
-                href="#">
+                href="mailto:laura_nesossi@protonmail.com" target="blank">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 8.99976L12 12.4998L17 8.99976" strokeLinecap="round" strokeLinejoin="round" />
                   <path
                     d="M2 16.9998V6.99976C2 5.89519 2.89543 4.99976 4 4.99976H20C21.1046 4.99976 22 5.89519 22 6.99976V16.9998C22 18.1044 21.1046 18.9998 20 18.9998H4C2.89543 18.9998 2 18.1044 2 16.9998Z" />
                 </svg>
 
-              </button>
+              </a>
 
-              <button
+              <a
                 className="rounded-full p-3 bg-white hover:bg-background drop-shadow-pink hover:drop-shadow-pink_strong stroke-paragraph hover:stroke-primary_dark"
-                href="#">
+                href="https://www.linkedin.com/in/laura-nesossi/" target="_blank">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M21 8.00024V16.0002C21 18.7616 18.7614 21.0002 16 21.0002H8C5.23858 21.0002 3 18.7616 3 16.0002V8.00024C3 5.23882 5.23858 3.00024 8 3.00024H16C18.7614 3.00024 21 5.23882 21 8.00024Z"
@@ -97,7 +105,7 @@ export default function Home() {
                   <path d="M7 7.01038L7.01 6.99927" stroke="#4D4D4D" strokeLinecap="round"
                     strokeLinejoin="round" />
                 </svg>
-              </button>
+              </a>
 
 
               {/* Freccina */}
@@ -606,18 +614,18 @@ export default function Home() {
 
               <div className="flex flex-row gap-2 items-center text-base mb-2">
                 <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.25 7.45422L9 10.0792L12.75 7.45422" stroke="white" stroke-width="0.75" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M1.5 13.4542V5.95422C1.5 5.1258 2.17157 4.45422 3 4.45422H15C15.8284 4.45422 16.5 5.1258 16.5 5.95422V13.4542C16.5 14.2827 15.8284 14.9542 15 14.9542H3C2.17157 14.9542 1.5 14.2827 1.5 13.4542Z" stroke="white" stroke-width="0.75" />
+                  <path d="M5.25 7.45422L9 10.0792L12.75 7.45422" stroke="white" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M1.5 13.4542V5.95422C1.5 5.1258 2.17157 4.45422 3 4.45422H15C15.8284 4.45422 16.5 5.1258 16.5 5.95422V13.4542C16.5 14.2827 15.8284 14.9542 15 14.9542H3C2.17157 14.9542 1.5 14.2827 1.5 13.4542Z" stroke="white" strokeWidth="0.75" />
                 </svg>
                 <a href="mailto:laura_nesossi@protonmail.com">laura_nesossi@protonmail.com</a>
               </div>
 
               <div className="flex flex-row gap-2 items-center text-base mb-2">
                 <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M15.75 6.70459V12.7046C15.75 14.7756 14.071 16.4546 12 16.4546H6C3.92893 16.4546 2.25 14.7756 2.25 12.7046V6.70459C2.25 4.63352 3.92893 2.95459 6 2.95459H12C14.071 2.95459 15.75 4.63352 15.75 6.70459Z" stroke="white" stroke-width="0.75" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M5.25 13.4546V10.8296V8.20459" stroke="white" stroke-width="0.75" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M8.25 13.4546V11.0171M8.25 11.0171V8.20459M8.25 11.0171C8.25 8.20459 12.75 8.20459 12.75 11.0171V13.4546" stroke="white" stroke-width="0.75" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M5.25 5.96219L5.2575 5.95386" stroke="white" stroke-width="0.75" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M15.75 6.70459V12.7046C15.75 14.7756 14.071 16.4546 12 16.4546H6C3.92893 16.4546 2.25 14.7756 2.25 12.7046V6.70459C2.25 4.63352 3.92893 2.95459 6 2.95459H12C14.071 2.95459 15.75 4.63352 15.75 6.70459Z" stroke="white" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M5.25 13.4546V10.8296V8.20459" stroke="white" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M8.25 13.4546V11.0171M8.25 11.0171V8.20459M8.25 11.0171C8.25 8.20459 12.75 8.20459 12.75 11.0171V13.4546" stroke="white" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M5.25 5.96219L5.2575 5.95386" stroke="white" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
 
                 <a href="https://www.linkedin.com/in/laura-nesossi/">laura-nesossi</a>
@@ -625,7 +633,7 @@ export default function Home() {
 
               <div className="flex flex-row gap-2 items-center text-base">
                 <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.5886 11.7309L10.5 12.3294C8.41372 11.2823 7.12499 10.0794 6.37499 8.20441L6.95246 5.10683L5.86088 2.20441H3.04769C2.20203 2.20441 1.5361 2.90324 1.6624 3.73942C1.97771 5.82691 2.90739 9.61178 5.62499 12.3294C8.47889 15.1833 12.5893 16.4217 14.8515 16.9139C15.7251 17.1041 16.5 16.4225 16.5 15.5285V12.8403L13.5886 11.7309Z" stroke="white" stroke-width="0.75" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M13.5886 11.7309L10.5 12.3294C8.41372 11.2823 7.12499 10.0794 6.37499 8.20441L6.95246 5.10683L5.86088 2.20441H3.04769C2.20203 2.20441 1.5361 2.90324 1.6624 3.73942C1.97771 5.82691 2.90739 9.61178 5.62499 12.3294C8.47889 15.1833 12.5893 16.4217 14.8515 16.9139C15.7251 17.1041 16.5 16.4225 16.5 15.5285V12.8403L13.5886 11.7309Z" stroke="white" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
 
                 <a href="tel:+393317232837">+39 331 7232837</a>
@@ -764,7 +772,7 @@ export default function Home() {
       {/* ondina di chiusura */}
 
       < svg width="100%" viewBox="0 0 1280 83" xmlns="http://www.w3.org/2000/svg"
-        className="relative -top-[1px] z-50 fill-white" >
+        className="relative -top-[1px] z-40 fill-white" >
         <path
           d="M945.25 62.4597C1091.76 63.564 1230.13 39.9146 1281 27.9518V0.704346H0V82.7043C29.5688 82.7043 186.952 50.1902 398.703 40.0679C610.454 29.9456 762.114 61.0794 945.25 62.4597Z" />
       </svg >
@@ -799,7 +807,7 @@ export default function Home() {
               <a
                 className="flex w-full md:w-72  justify-center h-min rounded-full py-3 px-6 text-white bg-primary_dark hover:bg-primary drop-shadow-pink hover:drop-shadow-pink_strong"
                 href="mailto:laura_nesossi@protonmail.com">
-                  
+
                 Contact me
               </a>
             </div>

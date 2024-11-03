@@ -81,7 +81,7 @@ export default function Carousel({ images }) {
 
 
 
-            <div className="relative flex justify-center p-4 my-4 rounded-full bg-white flex-row w-min m-auto drop-shadow-2">
+            <div className="relative flex max-w-full justify-center p-4 my-4 rounded-full bg-white flex-row w-min m-auto drop-shadow-2">
                 {images.map((_, index) => {
                     return (
                         <div
