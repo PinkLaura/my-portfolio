@@ -38,43 +38,16 @@ body {
 }
 
 body, html, * {
-  cursor: url('/img/cursor-default-x1.svg'), auto !important;
+  cursor: url('https://pinklaura.github.io/my-portfolio/img/cursor-default-x1.svg'), auto !important;
   scroll-behavior: smooth;
 } 
 
 a *,
 button *,
 label * {
-  cursor: url('/img/cursor-pointer-x1.svg'), auto !important;
+  cursor: url('https://pinklaura.github.io/my-portfolio/img/cursor-pointer-x1.svg'), auto !important;
 }
 
 a:hover{
-  cursor: url('/img/cursor-pointer-x1.svg'), auto !important;
-}
-
-
-
-.star {
-  position: fixed;
-  pointer-events: none;
-}
-
-.star:before,
-.star:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: '\2726';
-  font-size: 12px;
-}
-
-.star:before {
-  color: transparent;
-  text-shadow: 0 0 3px #FF008A10;
-}
-
-.star:after {
-  background: #FF008A50;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  cursor: url('https://pinklaura.github.io/my-portfolio/img/cursor-pointer-x1.svg'), auto !important;
 }
