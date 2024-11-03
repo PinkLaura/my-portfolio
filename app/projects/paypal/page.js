@@ -3,13 +3,13 @@ import Carousel from "@/components/image-slider";
 export default function PaypalProject() {
     return (
 
-        <div className="mt-16 mb-8">
+        <div className="mt-16 mb-8 relative z-10">
+            
+             {/* gradiente decorativo */}
+             <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/gradient-paypal.svg"
+                    className="blur-[140px] absolute -top-24 -left-24 z-10" />
 
             <div className="container max-w-6xl px-6 my-10 flex flex-col gap-8 relative">
-
-                {/* gradiente decorativo */}
-                <img src="https://pinklaura.github.io/my-portfolio/img/projects/paypal/gradient-paypal.svg"
-                    className="blur-[140px] absolute -top-24 -left-24 z-10" />
 
                 {/* icona */}
                 <div className="w-min p-[18px] rounded-[18px] drop-shadow-[0_0_9px_rgba(0,0,0,0.25)] bg-white stroke-yellow-500 relative z-20 

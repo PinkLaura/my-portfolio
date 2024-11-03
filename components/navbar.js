@@ -38,8 +38,8 @@ function Navbar() {
     };
 
     return (
-        <>
-            <nav className="fixed top-0 md:static w-full  bg-white/50 border border-white backdrop-blur-lg md:bg-transparent z-50">
+        <nav className='relative z-50'>
+            <div className="fixed md:relative top-0 w-full  bg-white/50 border md:border-none border-white backdrop-blur-lg md:bg-transparent z-50">
                 <div className="relative px-6 md:px-24 py-2 md:py-0 md:mt-10 flex flex-row place-content-between">
                     <Link href="/">
                         <img width={163} height={48} alto="pinklaura-logo" src="https://pinklaura.github.io/my-portfolio/img/pinklaura_logo.svg" className="h-12" alt="PinkLaura Logo" />
@@ -57,9 +57,9 @@ function Navbar() {
                         </svg>
                     </button>
                 </div>
-            </nav>
+            </div>
 
-            <nav className="fixed md:top-4 md:right-24 top-16 md:w-max w-full p-2 z-50">
+            <div className="fixed md:top-4 md:right-24 top-16 md:w-max w-full p-2 z-50">
 
                 <div id="navbar-multi-level" className="hidden md:block ">
 
@@ -81,7 +81,7 @@ function Navbar() {
 
                         {/* Resume link */}
                         <li className="!m-0">
-                            <Link href="https://pinklaura.github.io/my-portfolio/cv-laura.pdf" target="blank" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink">
+                            <Link href="https://pinklaura.github.io/my-portfolio/cv-laura.pdf" target="_blank" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink">
                                 Resume</Link>
                         </li>
 
@@ -165,8 +165,8 @@ function Navbar() {
                     </ul>
                 </div>
 
-            </nav>
-        </>
+            </div>
+        </nav>
 
     );
 }
