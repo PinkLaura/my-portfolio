@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <footer className="bg-pink-100">
-            <div className="container max-w-6xl text-sm text-center text-pink-600 p-6">
+        <footer className="bg-gray-50 ">
+            <div className="container max-w-6xl text-sm text-center text-gray-600 p-6 ">
                 <p className="mb-2">
                     Realized with ♥ by Laura Nesossi
                 </p>
