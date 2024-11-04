@@ -95,7 +95,7 @@ function Navbar() {
                         <div className="flex flex-row gap-3 !m-0">
                             {/* Icon Email */}
                             <li className="!m-0">
-                                <Link href="mailto:laura_nesossi@protonmail.com" target="_blank" className="block py-1 px-0.5 hover:stroke-primary_dark hover:drop-shadow-pink">
+                                <Link href="mailto:laura_nesossi@protonmail.com" target="blank" className="block py-1 px-0.5 hover:stroke-primary_dark hover:drop-shadow-pink">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M7 8.99976L12 12.4998L17 8.99976" strokeLinecap="round" strokeLinejoin="round" />
                                         <path
@@ -121,7 +121,7 @@ function Navbar() {
                                 </Link>
                             </li>
 
-                            {/* Icon Dribdble */}
+                            {/* Icon Dribbble */}
                             <li className="!m-0">
                                 <Link href="https://dribbble.com/PinkLaura" target="_blank"
                                     className="block py-1 px-0.5 hover:stroke-primary_dark hover:drop-shadow-pink">
