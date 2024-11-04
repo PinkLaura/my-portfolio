@@ -78,7 +78,7 @@ export default function LeasyChapter3() {
                                 }
                             />
 
-                            <div className="bg-indigo-100 p-6 pr-14 rounded-xl dashed-border-m drop-shadow-2 text-paragraph mt-12">
+                            <div className="relative bg-indigo-100 p-6 pr-14 rounded-xl dashed-border-m drop-shadow-2 text-paragraph mt-12">
 
                                 <div className="absolute -top-2 -right-2 p-3 bg-white drop-shadow-2 -rotate-[15deg] stroke-leasy rounded-[8px] overflow-hidden">
                                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -182,7 +182,7 @@ export default function LeasyChapter3() {
                         </div>
 
 
-                        <div className="bg-indigo-100 p-6 pr-14 rounded-xl dashed-border-m drop-shadow-2 text-paragraph md:w-5/12">
+                        <div className="relative bg-indigo-100 p-6 pr-14 rounded-xl dashed-border-m drop-shadow-2 text-paragraph md:w-5/12">
 
                             <div className="absolute -top-2 -right-2 p-3 bg-white drop-shadow-2 -rotate-[15deg] stroke-leasy rounded-[8px] overflow-hidden">
                                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
