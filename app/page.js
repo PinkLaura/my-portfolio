@@ -791,7 +791,7 @@ export default function Home() {
         < div className="container p-6 max-w-4xl flex md:w-auto w-full flex-col gap-8" >
 
           <div className="flex md:flex-row flex-col md:px-4 items-center bg-white rounded-lg dashed-border-m drop-shadow-2 z-20 my-16">
-            <img className="" src="https://pinklaura.github.io/my-portfolio/img/home/airplane-decoration.png" />
+            <img className="md:w-1/4" src="https://pinklaura.github.io/my-portfolio/img/home/airplane-decoration.png" />
 
             <div className="p-8 justify-between flex md:flex-row md:gap-8 gap-4 flex-col w-full items-center">
               <div className="flex flex-col gap-1">
