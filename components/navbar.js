@@ -73,7 +73,7 @@ function Navbar() {
 
                         {/* Projects link */}
                         <li className="!m-0">
-                            <Link href="https://pinklaura.github.io/my-portfolio#projects" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink"
+                            <Link href="https://pinklaura.github.io/my-portfolio/#projects" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink"
                                 aria-current="page">
                                 Projects</Link>
                         </li>
