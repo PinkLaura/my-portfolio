@@ -3,7 +3,6 @@
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import Image from "next/image";
-
 import { useEffect } from 'react'
 
 function Navbar() {
@@ -74,7 +73,7 @@ function Navbar() {
 
                         {/* Projects link */}
                         <li className="!m-0">
-                            <Link href="/#projects" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink"
+                            <Link href="https://pinklaura.github.io/my-portfolio#projects" className="block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink"
                                 aria-current="page">
                                 Projects</Link>
                         </li>
@@ -87,7 +86,7 @@ function Navbar() {
 
                         {/* About me link */}
                         <li className="!m-0">
-                            <Link href="/#about-me"
+                            <Link href="https://pinklaura.github.io/my-portfolio/#about-me"
                                 className="inline-block py-2 px-3 md:py-1 md:px-2 hover:text-primary_dark hover:drop-shadow-pink">
                                 About me</Link>
                         </li>
