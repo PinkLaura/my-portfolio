@@ -46,7 +46,7 @@ export default function PaypalProject() {
                                 <a
 
                                     className=" w-max rounded-full p-3 bg-white hover:bg-background drop-shadow-2 hover:drop-shadow-1 stroke-paragraph hover:stroke-yellow-600"
-                                    href="https://www.figma.com/file/Iccwhj1nBOE7O2PhRR67hZ/Skyscanner-Analysis?type=whiteboard&node-id=20-603&t=mKcSUO7IzZU7IE8e-4" target="blank">
+                                    href="https://www.figma.com/file/htICbrPfzDQ1B4WpYRE5ll/PayPal-x-Satispay---Research-Notes?node-id=0%3A1&t=OLtAIqPvi22YQe81-1" target="blank">
 
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M8 14H16" strokeLinecap="round" strokeLinejoin="round" />
